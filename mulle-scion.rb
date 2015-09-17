@@ -1,17 +1,21 @@
 class MulleScion < Formula
   homepage "http://www.mulle-kybernetik.com/software/git/MulleScion"
-  url "https://github.com/mulle-nat/MulleScion/archive/1852.tar.gz"
-  version "1852"
-  sha256 "21cc06b17d2770b2873ed8c3dc7f87054fbab9c1f037de7c7048a35ccf18f4f3"
+  desc "creates text from templates and a data-source using Objective-C"
+  url "https://api.github.com/repos/mulle-nat/MulleScion/tarball/1853"
+  version "1853"
+  sha256 "4466e6eb28b9ce1ff88ef3153b13d391580f063fb07e45dbcb6988c4ff16d1a4"
 
   depends_on :xcode => :build
-#  depends_on "zlib"
+  depends_on :macos => :snow_leopard
 
+#  depends_on "zlib"
   def install
-    system "xcodebuild", "-target", "mulle-scion", "DEPLOYMENT_LOCATION=YES", "DSTROOT=/", "INSTALL_PATH=#{bin}"
+     xcodebuild "-target", "mulle-scion", "DEPLOYMENT_LOCATION=YES", "SYMROOT=build", "DSTROOT=/", "INSTALL_PATH=#{bin}"
   end
 
   test do
-    system  "test", "-x", "#{bin}/mulle-scion"
+    system pwd
+    system "(", "cd tests", ";", "./run-all-scion-tests.sh", "#{bin}/mulle-scion", ")"
   end
 end
+# FORMULA mulle-scion.rb
