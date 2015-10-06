@@ -6,7 +6,7 @@ class MulleBootstrap < Formula
   sha256 "e634993c170c8ed8175cb733e8da320073adfc7fb66c855bb8a8fd6a67e64cb1"
 
   def install
-     system ./install.sh, "#{prefix}"
+     system "./install.sh", "#{prefix}"
   end
 
   test do
