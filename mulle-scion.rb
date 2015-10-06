@@ -10,7 +10,7 @@ class MulleScion < Formula
 
 #  depends_on "zlib"
   def install
-     xcodebuild "-target", "mulle-scion", "DEPLOYMENT_LOCATION=YES", "SYMROOT=build", "DSTROOT=/", "INSTALL_PATH=#{bin}"
+     xcodebuild "install", "-target", "mulle-scion", "DSTROOT=/", "INSTALL_PATH=#{bin}"
   end
 
   test do
