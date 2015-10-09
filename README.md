@@ -1,5 +1,5 @@
 # homebrew-tap
-[Homebrew](//brew.sh) Formulae
+Mulle kybernetiK [Homebrew](//brew.sh) Formulae
 
 ### Access this repository
 
@@ -7,9 +7,25 @@
 brew tap mulle-kybernetik/software
 ~~~
 
+If you have trouble updating, try:
+
+~~~
+brew untap mulle-kybernetik/software
+brew tap mulle-kybernetik/software
+~~~
 
 ### Install a tool
 
 ~~~
 brew install mulle-scion
 ~~~
+
+
+### List of tools
+
+Tool              | Description   | Homepage
+-----------------|----------------|-------------
+mulle-bootstrap  | a dependency manager for cmake and Xcode projects. | [[homepage](https://www.mulle-kybernetik.com/software/git/mulle-bootstrap)]
+mulle-genstrings | a replacement for Apple's genstrings. | [[homepage](https://www.mulle-kybernetik.com/software/git/mulle-genstrings)]
+mulle-scion      | a standalone MulleScion template interpreter. | [[homepage](https://www.mulle-kybernetik.com/software/git/MulleScion)]
+mulle-xcode-settings |  a tool to change Xcode project settings from the command line. |[[homepage](http://www.mulle-kybernetik.com/software/git/mulle-xcode-settings)]
