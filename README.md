@@ -1,7 +1,10 @@
-# homebrew-tap
-Mulle kybernetiK [Homebrew](//brew.sh) Formulae
+# homebrew-sofware
 
-### Access this repository
+This is a tap for Mulle kybernetiK [homebrew](//brew.sh) formulae. If not noted otherwise, these formulae only work on OS X.
+
+### How to access this repository
+
+You need to install [brew](//brew.sh) first, then open a Terminal and type.
 
 ~~~
 brew tap mulle-kybernetik/software
@@ -14,7 +17,7 @@ brew untap mulle-kybernetik/software
 brew tap mulle-kybernetik/software
 ~~~
 
-### Install a tool
+### How to install a tool
 
 ~~~
 brew install mulle-scion
