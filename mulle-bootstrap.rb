@@ -1,9 +1,9 @@
 class MulleBootstrap < Formula
   homepage "http://www.mulle-kybernetik.com/software/git/mulle-bootstrap"
   desc "A simple shell script based dependency manager for projects"
-  url "http://www.mulle-kybernetik.com/software/git/mulle-bootstrap/tarball/0.13"
-  version "0.13"
-  sha256 "a5ba1bdb13b105d567b15795dc53f0cb8a903051a0325b8bcc64d994f7a75975"
+  url "http://www.mulle-kybernetik.com/software/git/mulle-bootstrap/tarball/0.14"
+  version "0.14"
+  sha256 "86a6ac41ee896e2b005bc6b72423e9e1ecf657e481152ad613c877ed267cff46"
 
   def install
      system "./install.sh", "#{prefix}"
