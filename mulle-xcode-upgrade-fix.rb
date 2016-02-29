@@ -1,6 +1,6 @@
-class mulle-xcode-upgrade-fix < Formula
+class MulleXcodeUpgradeFix < Formula
   homepage "https://www.mulle-kybernetik.com/software/git/mulle-xcode-upgrade-fix"
-  desc "Fix unwanted upgrade warnings in Xcode projects"
+  desc "mulle-xcode-upgrade-fix.sh fixes unwanted upgrade warnings in Xcode projects"
   url "https://www.mulle-kybernetik.com/software/git/mulle-xcode-upgrade-fix/tarball/0.2"
   version "0.2"
   sha256 "2f680047407ae89450d210b303f721b42000cf555a95834f284ba1f9cf515d25"
@@ -12,4 +12,4 @@ class mulle-xcode-upgrade-fix < Formula
   test do
   end
 end
-# FORMULA mulle-xcode-upgrade-fix.rb
+# FORMULA MulleXcodeUpgradeFix.rb
