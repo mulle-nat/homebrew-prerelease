@@ -6,7 +6,7 @@ class MulleBootstrap < Formula
   sha256 "7885789cc30e23732f626d5e47394aacca800477844aa090c0e36214da95fcd4"
 
   def install
-     system "install.sh" "#{prefix}" mulle-xcode-upgrade-fix.sh
+     system "install", "-m", "0775", "mulle-xcode-upgrade-fix.sh" "#{prefix}"
   end
 
   test do
