@@ -1,9 +1,9 @@
 class MulleGenstrings < Formula
-  homepage "http://www.mulle-kybernetik.com/software/git/mulle-genstrings"
+  homepage "https://www.mulle-kybernetik.com/software/git/mulle-genstrings"
   desc "a replacement for Apple's genstrings"
-  url "http://www.mulle-kybernetik.com/software/git/mulle-genstrings/tarball/18.48.4"
-  version "18.48.4"
-  sha256 "6e2c82d9e3e707882fa626631de0afe87cefc34f50e7b5c79f41b1d2c01a5001"
+  url "https://www.mulle-kybernetik.com/software/git/mulle-genstrings/tarball/18.48.5"
+  version "18.48.5"
+  sha256 "b44a601c89abdbe155700a230e005b680312ba1e9163eeb5d000bafe00016c06"
 
   depends_on :xcode => :build
   depends_on :macos => :snow_leopard
