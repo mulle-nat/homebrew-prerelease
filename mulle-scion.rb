@@ -1,9 +1,9 @@
 class MulleScion < Formula
   homepage "https://www.mulle-kybernetik.com/software/git/MulleScion"
-  desc "creates text from templates and a data-source using Objective-C"
-  url "https://github.com/mulle-nat/MulleScion/archive/1853.2.tar.gz"
-  version "1853.2"
-  sha256 "4e10767eced01a23226a18cd72e4e83d41e5b899d036e11637775b71006a454c"
+  desc "Templating Engine in Objective-C"
+  url "https://www.mulle-kybernetik.com/software/git/MulleScion/tarball/1854"
+  version "1854"
+  sha256 "40a94a863e8bb07e56eed4d6f17d34f3ec737a3f1390143625b9be7091ed7be7"
 
   depends_on "mulle-bootstrap"
   depends_on :xcode => :build
