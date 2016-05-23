@@ -3,7 +3,7 @@ class MulleScion < Formula
   desc "Templating Engine in Objective-C"
   url "https://www.mulle-kybernetik.com/software/git/MulleScion/tarball/1854"
   version "1854"
-  sha256 "40a94a863e8bb07e56eed4d6f17d34f3ec737a3f1390143625b9be7091ed7be7"
+  sha256 "a6b305171a7a2e1839134e972c28d7adb43e8e4ab4c77740d1bd4238c4d2fb9a"
 
   depends_on "mulle-bootstrap"
   depends_on :xcode => :build
