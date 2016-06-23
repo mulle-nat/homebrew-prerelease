@@ -12,7 +12,7 @@ class MulleScion < Formula
 #  depends_on "zlib"
   def install
      system "mulle-bootstrap"
-     xcodebuild, "install", "-target", "mulle-scion", "DSTROOT=/", "INSTALL_PATH=#{bin}"
+     xcodebuild "install", "-target", "mulle-scion", "DSTROOT=/", "INSTALL_PATH=#{bin}"
   end
 
   test do
