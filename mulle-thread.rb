@@ -1,4 +1,4 @@
-class mulle-thread < Formula
+class mulle_thread < Formula
   homepage "http://www.mulle-kybernetik.com/software/git/mulle-thread"
   desc "Cross-platform threads and atomic operations"
   url "http://www.mulle-kybernetik.com/software/git/mulle-thread/tarball/3.0.0"
