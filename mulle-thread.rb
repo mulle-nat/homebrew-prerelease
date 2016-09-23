@@ -1,15 +1,15 @@
 class MulleThread < Formula
   homepage "http://www.mulle-kybernetik.com/software/git/mulle-thread"
   desc "Cross-platform threads and atomic operations"
-  url "http://www.mulle-kybernetik.com/software/git/mulle-thread/tarball/3.0.0"
-  version "3.0.0"
-  sha256 "487258091d2446f4435dbac514a5091c6bcf6b79371732e4d7fa29c036974b36"
+  url "http://www.mulle-kybernetik.com/software/git/mulle-thread/tarball/3.0.1"
+  version "3.0.1"
+  sha256 "a7fcbb76a477a01ff3d66a388841116db6a1a0781d28172c10824963ce862d05"
 
-  depends_on 'cmake'           => :build
-  depends_on 'mulle-bootstrap' => :build
+  depends_on 'mulle-c11'
+  depends_on 'mulle-install' => :build
 
   def install
-     system "./install.sh", "#{prefix}"
+     system "./install.sh", "--brew", "--prefix", "#{prefix}"
   end
 
   test do
