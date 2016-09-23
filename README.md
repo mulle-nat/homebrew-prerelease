@@ -26,6 +26,7 @@ brew install mulle-scion
 Name             | Description    | Homepage
 -----------------|----------------|-------------
 mulle-bootstrap  | a dependency manager for cmake and Xcode projects. | [[homepage](https://www.mulle-kybernetik.com/software/git/mulle-bootstrap)]
+mulle-install    | an install tool based on mulle-bootstrap| [[homepage](https://www.mulle-kybernetik.com/software/git/mulle-install)]
 mulle-genstrings | a replacement for Apple's genstrings. | [[homepage](https://www.mulle-kybernetik.com/software/git/mulle-genstrings)]
 mulle-scion      | a standalone MulleScion template interpreter. | [[homepage](https://www.mulle-kybernetik.com/software/git/MulleScion)]
 mulle-xcode-settings |  a tool to change Xcode project settings from the command line. |[[homepage](http://www.mulle-kybernetik.com/software/git/mulle-xcode-settings)]
