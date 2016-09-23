@@ -1,9 +1,9 @@
 class MulleInstall < Formula
   homepage "http://www.mulle-kybernetik.com/software/git/mulle-install"
   desc "Cross-platform installer using mulle-bootstrap or cmake"
-  url "http://www.mulle-kybernetik.com/software/git/mulle-install/tarball/0.1"
-  version "0.1"
-  sha256 "ad0495671dc18022ada7c03dd9300bed4dcf2636f4a3d120dd7a6292eb0befb5"
+  url "http://www.mulle-kybernetik.com/software/git/mulle-install/tarball/0.2"
+  version "0.2"
+  sha256 "cb969596e3175a324879b5a401faed896a20b04480cef3e76d4b2c092adf52a5"
 
   depends_on 'mulle-bootstrap'
   depends_on 'cmake'
