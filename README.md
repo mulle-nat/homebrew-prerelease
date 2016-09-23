@@ -42,7 +42,7 @@ mulle-bootstrap  | a dependency manager for cmake and Xcode projects. | [[homepa
 mulle-install    | an install tool based on mulle-bootstrap| [[homepage](https://www.mulle-kybernetik.com/software/git/mulle-install)]
 
 
-### List of libraries
+### List of libraries, Linux and OS X
 
 Name             | Description    | Homepage
 -----------------|----------------|-------------
