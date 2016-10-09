@@ -39,7 +39,7 @@ mulle-xcode-settings |  a tool to change Xcode project settings from the command
 Name             | Description    | Homepage
 -----------------|----------------|-------------
 mulle-bootstrap  | a dependency manager for cmake and Xcode projects. | [[homepage](https://www.mulle-kybernetik.com/software/git/mulle-bootstrap)]
-mulle-install    | an install tool based on mulle-bootstrap| [[homepage](https://www.mulle-kybernetik.com/software/git/mulle-install)]
+mulle-build      | an project build tool based on cmake and mulle-bootstrap| [[homepage](https://www.mulle-kybernetik.com/software/git/mulle-build)]
 
 
 ### List of libraries, Linux and OS X
