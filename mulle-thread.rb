@@ -1,9 +1,9 @@
 class MulleThread < Formula
   homepage "http://www.mulle-kybernetik.com/software/git/mulle-thread"
   desc "Cross-platform threads and atomic operations"
-  url "http://www.mulle-kybernetik.com/software/git/mulle-thread/tarball/3.2.0"
-  version "3.2.0"
-  sha256 "9a76eca9a2c64b26b13091ccdd6049f6329326ce571a5a5029784a303a777b2b"
+  url "http://www.mulle-kybernetik.com/software/git/mulle-thread/tarball/3.2.1"
+  version "3.2.1"
+  sha256 "1bb445dad8be6e8f05a5ef955adeee9d53953722df056e676369847fea730396"
 
   depends_on 'mulle-c11'
   depends_on 'mulle-build' => :build
