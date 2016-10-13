@@ -1,19 +1,20 @@
 class MulleAllocator < Formula
-  homepage "http://www.mulle-kybernetik.com/software/git/mulle-allocator"
-  desc "Flexible memory allocation support with leak checker"
-  url "http://www.mulle-kybernetik.com/software/git/mulle-allocator/tarball/1.6.1"
-  version "1.6.1"
-  sha256 "5c7a1c105b476ef9a947c73c96d7537bfa12660aebf4520521af207a7054d522"
+   homepage "https://www.mulle-kybernetik.com/software/git/mulle-allocator"
+   desc "Flexible memory allocation scheme with leak checker"
+   url "https://www.mulle-kybernetik.com/software/git/mulle-allocator/tarball/1.7.0"
+   version "1.7.0"
+   sha256 "0b82ce03dbd7e4100e06da9c936e2088bd6ccf6f5287b174c11a9e3628c77113"
 
-  depends_on 'mulle-c11'
-  depends_on 'mulle-thread'
-  depends_on 'mulle-build' => :build
+   depends_on 'mulle-c11'
+   depends_on 'mulle-thread'
+   depends_on 'mulle-build' => :build
 
-  def install
-     system "mulle-install", "-e", "--prefix", "#{prefix}"
-  end
+   def install
+      system "mulle-install", "-e", "--prefix", "#{prefix}"
+   end
 
-  test do
-  end
+   test do
+      system "mulle-test"
+   end
 end
-# FORMULA mulle-allocator.rb
+# FORMULA .rb
