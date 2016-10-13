@@ -1,9 +1,9 @@
 class MulleAllocator < Formula
    homepage "https://www.mulle-kybernetik.com/software/git/mulle-allocator"
    desc "Flexible C memory allocation scheme with leak checking"
-   url "https://www.mulle-kybernetik.com/software/git/mulle-allocator/tarball/1.7.2"
-   version "1.7.2"
-   sha256 "9e93f337c547d0aef4f8509bc3eb5ec526d8d37fa5f7d1f1fea8fd6a2a096cd7"
+   url "https://www.mulle-kybernetik.com/software/git/mulle-allocator/tarball/1.7.3"
+   version "1.7.3"
+   sha256 "26943260899339f665f92c76429a26da363c8bf0bad520fd541a59de979e25d7"
 
    depends_on 'mulle-c11'
    depends_on 'mulle-thread'
