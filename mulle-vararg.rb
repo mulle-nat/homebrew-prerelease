@@ -1,10 +1,11 @@
 class MulleVararg < Formula
    homepage "https://www.mulle-kybernetik.com/software/git/mulle-vararg"
-   desc "Access variable arguments in struct layout fashion"
-   url "https://www.mulle-kybernetik.com/software/git/mulle-vararg/tarball/0.5.1"
-   version "0.5.1"
-   sha256 "d238bf68db7eb0bbc0c7d7914b7a536c051fe08e6d2ed313cf01ad39e8ca8f8e"
+   desc "Flexible C memory allocation scheme with leak checking"
+   url "https://www.mulle-kybernetik.com/software/git/mulle-vararg/tarball/0.5.2"
+   version "0.5.2"
+   sha256 "664675ac0defc6c8032a8cd72156074d8f08bbdbcec3b0df476db42eeb236a65"
 
+   depends_on 'mulle-c11'
    depends_on 'mulle-build' => :build
 
    def install
@@ -15,4 +16,4 @@ class MulleVararg < Formula
       system "mulle-test"
    end
 end
-# FORMULA .rb
+# FORMULA mulle-vararg.rb
