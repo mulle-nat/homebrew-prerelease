@@ -25,7 +25,7 @@ brew install mulle-scion
 ~~~
 
 
-### List of tools, OS X only
+### List of tools: OS X only
 
 Name             | Description    | Homepage
 -----------------|----------------|-------------
@@ -34,7 +34,7 @@ mulle-scion      | a standalone MulleScion template interpreter. | [[homepage](h
 mulle-xcode-settings |  a tool to change Xcode project settings from the command line. |[[homepage](http://www.mulle-kybernetik.com/software/git/mulle-xcode-settings)]
 
 
-### List of tools, Linux and OS X
+### List of tools: Linux, OS X, FreeBSD, Windows (bash, git-bash)
 
 Name             | Description    | Homepage
 -----------------|----------------|-------------
@@ -42,9 +42,10 @@ mulle-bootstrap  | a dependency manager for cmake and Xcode projects. | [[homepa
 mulle-build      | an project build tool based on cmake and mulle-bootstrap| [[homepage](https://www.mulle-kybernetik.com/software/git/mulle-build)]
 
 
-### List of libraries, Linux and OS X
+### List of libraries: Linux, OS X, FreeBSD, Windows (bash, git-bash)
 
 Name             | Description    | Homepage
 -----------------|----------------|-------------
 mulle-c11        | a cross-platform header with C compiler glue | [[homepage](https://www.mulle-kybernetik.com/software/git/mulle-c11)]
 mulle-thread     | a cross-platform library for threads and atomic operations. | [[homepage](https://www.mulle-kybernetik.com/software/git/mulle-thread)]
+mulle-allocator  | a cross-platform library for allocation and leak checking. | [[homepage](https://www.mulle-kybernetik.com/software/git/mulle-allocator)]
