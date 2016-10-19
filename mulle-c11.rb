@@ -1,9 +1,9 @@
 class MulleC11 < Formula
   homepage "http://www.mulle-kybernetik.com/software/git/mulle-c11"
   desc "Cross-platform compiler glue"
-  url "http://www.mulle-kybernetik.com/software/git/mulle-c11/tarball/1.0.2"
-  version "1.0.2"
-  sha256 "b0a44f829512f3727c27eb80b59fb6bafa3f3365838e11ba01ff75abe4d66cb6"
+  url "http://www.mulle-kybernetik.com/software/git/mulle-c11/tarball/1.0.3"
+  version "1.0.3"
+  sha256 "238cd76a96a3718cc29d4411aa1caaf4ee51ff5623b083852dde8f2370f3762a"
 
   depends_on 'mulle-bootstrap' => :build
   depends_on 'mulle-build' => :build
