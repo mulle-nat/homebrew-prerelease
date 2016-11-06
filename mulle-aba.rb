@@ -1,9 +1,9 @@
 class MulleAba < Formula
    homepage "https://www.mulle-kybernetik.com/software/git/mulle-aba"
    desc "A portable, lock-free solution to the ABA problem in C"
-   url "https://www.mulle-kybernetik.com/software/git/mulle-aba/tarball/1.3.5"
-   version "1.3.5"
-   sha256 "db381e5044970931ad32f0f5384ee585484ad63f5061694f71b5e5c15d0ccacf"
+   url "https://www.mulle-kybernetik.com/software/git/mulle-aba/tarball/1.4.0"
+   version "1.4.0"
+   sha256 "b554e606d9082446c05199a4ffc2d0376e09f3221bda8658f7a402b44f107ae5"
 
    depends_on 'mulle-c11'
    depends_on 'mulle-allocator'
