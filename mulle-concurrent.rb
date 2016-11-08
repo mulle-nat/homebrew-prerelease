@@ -1,14 +1,14 @@
 class MulleConcurrent < Formula
-   homepage "https://www.mulle-kybernetik.com/software/git/mulle-concurrent"
+   homepage "https://github.com/mulle-nat/mulle-concurrent"
    desc "Lock- and Wait-free Hashtable (and an Array too) in C"
-   url "https://www.mulle-kybernetik.com/software/git/mulle-concurrent/tarball/1.1.1"
-   version "1.1.1"
-   sha256 "1f1477575066e76eadb45c9fd24bdb28bb9fe0738e0a2d2bc028a90342cefd3b"
+   url "https://github.com/mulle-nat/mulle-concurrent/archive/1.1.3.tar.gz"
+   version "1.1.3"
+   sha256 "af942e7b09e3437c472d2c79c8d006b1dd31f1b15f424bd0bc23509ab63a7fff"
 
-   depends_on 'mulle-c11'
-   depends_on 'mulle-allocator'
-   depends_on 'mulle-aba'
-   depends_on 'mulle-thread'
+   depends_on 'mulle-nat/software/mulle-c11'
+   depends_on 'mulle-nat/software/mulle-allocator'
+   depends_on 'mulle-nat/software/mulle-aba'
+   depends_on 'mulle-nat/software/mulle-thread'
    depends_on 'mulle-build' => :build
 
    def install
