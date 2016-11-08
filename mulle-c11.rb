@@ -1,7 +1,7 @@
 class MulleC11 < Formula
-   homepage "https://github.com/mulle-nat/mulle-c11"
+   homepage "https://github.com/mulle-nat/"
    desc "Cross-platform compiler glue"
-   url "https://github.com/mulle-nat/mulle-c11/archive/1.0.5.tar.gz"
+   url "https://github.com/mulle-kybernetik/mulle-c11/archive/1.0.5.tar.gz"
    version "1.0.5"
    sha256 "513a9b9786bef046b869bffae5347f7f9ae9864011a2b5e51e55a3c21baa409c"
 
