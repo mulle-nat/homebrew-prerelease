@@ -1,11 +1,12 @@
 class MulleContainer < Formula
-   homepage "https://www.mulle-kybernetik.com/software/git/mulle-container"
+   homepage "https://github.com/mulle-nat/mulle-container"
    desc "Sets, hashtables, byte buffers and more, written in C"
-   url "https://www.mulle-kybernetik.com/software/git/mulle-container/tarball/0.8.0"
-   version "0.8.0"
-   sha256 "a5a1a7b356d7acf230afcb2f3358ef30655fed0e515a4ca66fc13a5e325ef5a4"
+   url "https://github.com/mulle-nat/mulle-container/archive/0.8.3.tar.gz"
+   version "0.8.3"
+   sha256 "9138e984ba9d15b501fa29aaf5b9ba11b9733ee2463ceba87b0befc493802ae5"
 
-   depends_on 'mulle-allocator'
+   depends_on 'mulle-nat/software/mulle-c11'
+   depends_on 'mulle-nat/software/mulle-allocator'
    depends_on 'mulle-build' => :build
 
    def install
