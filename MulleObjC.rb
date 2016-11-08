@@ -1,4 +1,4 @@
-class MulleObjC < Formula
+class Mulleobjc < Formula
    homepage "https://github.com/mulle-nat/MulleObjC"
    desc "Objective-C root classes using the mulle-objc runtime"
    url "https://github.com/mulle-nat/MulleObjC/archive/0.4.1.tar.gz"
