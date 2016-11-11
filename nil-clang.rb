@@ -29,6 +29,6 @@ class NilClang < Formula
    end
 
    test do
-      system "#{bin}/nil-clang", "v", "|", "fgrep", "-x", "-s", "clang"
+      system "#{bin}/nil-clang", "-v", "|", "fgrep", "-x", "-s", "clang"
    end
 end
