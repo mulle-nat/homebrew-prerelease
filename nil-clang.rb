@@ -10,7 +10,7 @@ class NilClang < Formula
       mkdir "build" do
          system "cmake", "-G", "Unix Makefiles", *std_cmake_args, ".."
          system "make", ENV[ "MAKEFLAGS"]
-         system "make install"
+         system "make", "install"
 
          bin.install_symlink prefix + "nil-clang"
       end
