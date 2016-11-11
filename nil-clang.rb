@@ -1,8 +1,8 @@
 class NilClang < Formula
    homepage "https://github.com/mulle-nat/nil-clang"
    desc "Nil Clang is a shell script that calls clang"
-   url "https://github.com/mulle-nat/nil-clang/archive/1.1.tar.gz"
-   sha256 "bb3733b401677eafe70a96f46707e440ea5bb9d8e54666477ac43d1cb2b5dd08"
+   url "https://github.com/mulle-nat/nil-clang/archive/1.2.tar.gz"
+   sha256 "dc01eac5d411d0e746ba42b4a87520a2d8f0b0a418bd755106bc3b6da04a7bbe"
 
    #
    # homebrew llvm is built with polly, but cmake doesn't pick it up
