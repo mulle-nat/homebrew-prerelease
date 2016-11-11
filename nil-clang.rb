@@ -4,10 +4,8 @@ class NilClang < Formula
    url "https://github.com/mulle-nat/nil-clang/archive/1.2.tar.gz"
    sha256 "dc01eac5d411d0e746ba42b4a87520a2d8f0b0a418bd755106bc3b6da04a7bbe"
 
-   #
-   # homebrew llvm is built with polly, but cmake doesn't pick it up
-   # for some reason
-   #
+   depends_on 'cmake' => :build
+
    def install
       mkdir "build" do
          system "cmake", "-G", "Unix Makefiles", *std_cmake_args, ".."
