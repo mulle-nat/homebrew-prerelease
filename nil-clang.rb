@@ -11,9 +11,9 @@ class NilClang < Formula
          system "cmake", "-G", "Unix Makefiles", *std_cmake_args, ".."
          system "make", "VERBOSE=1", ENV[ "MAKEFLAGS"]
          system "make", "VERBOSE=1", "install"
-
-         bin.install_symlink prefix + "nil-clang"
       end
+
+      bin.install_symlink prefix + "nil-clang"
 
       #
       # install a shim for nil-lang into homebrew
