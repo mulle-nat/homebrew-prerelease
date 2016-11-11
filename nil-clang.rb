@@ -1,8 +1,8 @@
 class NilClang < Formula
    homepage "https://github.com/mulle-nat/nil-clang"
    desc "Nil Clang is a shell script that calls clang"
-   url "https://github.com/mulle-nat/nil-clang/archive/1.2.tar.gz"
-   sha256 "dc01eac5d411d0e746ba42b4a87520a2d8f0b0a418bd755106bc3b6da04a7bbe"
+   url "https://github.com/mulle-nat/nil-clang/archive/1.3.tar.gz"
+   sha256 "55b73966bac34618b43898321bd66290ba33c9cce1a3e8b5e9692202bd013dba"
 
    depends_on 'cmake' => :build
 
