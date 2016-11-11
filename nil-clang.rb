@@ -12,7 +12,7 @@ class NilClang < Formula
          system "make", ENV[ "MAKEFLAGS"]
          system "make install"
 
-         bin.install_symlink prefix/"bin/nil-clang" => "nil-clang"
+         bin.install_symlink prefix + "nil-clang"
       end
 
       #
