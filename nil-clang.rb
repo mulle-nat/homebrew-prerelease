@@ -14,7 +14,7 @@ class NilClang < Formula
       end
 
       system "echo", "install...", prefix + "nil-clang"
-      bin.install_symlink prefix + "nil-clang"
+      bin.install_symlink prefix + "bin/nil-clang"
       system "echo", "installed"
 
       #
