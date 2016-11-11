@@ -10,7 +10,10 @@ class NilCmake < Formula
    def install
       mkdir "build" do
          system "env"
-         system "cmake", "-DCMAKE_C_COMPILER=nil-clang", "-DCMAKE_CXX_COMPILER=nil-clang", "-G", "Unix Makefiles", *std_cmake_args, ".."
+         system "touch", "x.c"
+         system "nil-clang", "-E", "-v", "x.c"
+         system "rm", "x.c"
+         system "cmake", "-DCMAKE_C_COMPILER=nil-clang", "-G", "Unix Makefiles", *std_cmake_args, ".."
          system "make", "VERBOSE=1", ENV[ "MAKEFLAGS"]
          system "make", "VERBOSE=1", "install"
       end
