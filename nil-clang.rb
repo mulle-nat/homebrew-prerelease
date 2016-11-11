@@ -13,7 +13,7 @@ class NilClang < Formula
          system "make", "VERBOSE=1", "install"
       end
 
-      system "echo", "install...", prefix + "nil-clang"
+      system "echo", "install...", prefix + "bin/nil-clang"
       bin.install_symlink prefix + "bin/nil-clang"
       system "echo", "installed"
 
