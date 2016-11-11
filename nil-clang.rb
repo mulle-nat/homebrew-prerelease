@@ -13,6 +13,10 @@ class NilClang < Formula
          system "make", "VERBOSE=1", "install"
       end
 
+      system "echo", "install...", prefix + "bin/nil-clang"
+      bin.install_symlink prefix + "bin/nil-clang"
+      system "echo", "installed"
+
       #
       # install a shim for nil-lang into homebrew
       #
@@ -24,6 +28,7 @@ class NilClang < Formula
       text = text.gsub( /\/\^clang\//, "/clang/")
       File.open( dst, "w") {|file| file.puts text }
       File.chmod(0755, dst)
+      system "echo", "done"
    end
 
    test do
