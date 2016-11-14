@@ -5,7 +5,7 @@ class MulleBuild < Formula
   version "0.8.2"
   sha256 "56a4b1436ced6a5acf35301df32db76db1e5c2698ab8e1e49d5c1abf838cf4e7"
 
-  depends_on 'mulle-bootstrap'
+  depends_on 'mulle-kybernetik/software/mulle-bootstrap'
   depends_on 'cmake'
 
   def install
