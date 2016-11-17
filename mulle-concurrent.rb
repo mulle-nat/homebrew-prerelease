@@ -1,9 +1,9 @@
 class MulleConcurrent < Formula
    homepage "https://github.com/mulle-nat/mulle-concurrent"
    desc "Lock- and Wait-free Hashtable (and an Array too) in C"
-   url "https://github.com/mulle-nat/mulle-concurrent/archive/1.1.3.tar.gz"
-   version "1.1.3"
-   sha256 "ac4170aec06c64dd695430a67edfdd207e3b77b70989ae6753d707a487f43c4e"
+   url "https://github.com/mulle-nat/mulle-concurrent/archive/1.1.5.tar.gz"
+   version "1.1.5"
+   sha256 "ad749d556e47becff7746006f4da154ada28afa7496f7d0ed9bcc1e010e25da1"
 
    depends_on 'mulle-kybernetik/software/mulle-allocator'
    depends_on 'mulle-kybernetik/software/mulle-aba'
