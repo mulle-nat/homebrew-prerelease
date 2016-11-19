@@ -1,13 +1,16 @@
 class MulleObjcRuntime < Formula
-   homepage "https://github.com/mulle-nat/mulle-objc"
+   homepage "https://github.com/mulle-objc/mulle-objc"
    desc "An Objective-C runtime, written 100% in C"
-   url "https://github.com/mulle-nat/mulle-objc-runtime/archive/0.1.1.tar.gz"
-   version "0.1.1"
-   sha256 "e28bf7d9fcc22cdfde0c7c8f31e3648a4847e7bda9cb69f309f24257eee3dd41"
+   url "https://github.com/mulle-objc/mulle-objc-runtime/archive/0.1.7.tar.gz"
+   version "0.1.7"
+   sha256 "395408a3dc9c3db2b5c200b8722a13a60898c861633b99e6e250186adffd1370"
 
-   depends_on 'mulle-kybernetik/software/mulle-concurrent'
-   depends_on 'mulle-kybernetik/software/mulle-vararg'
+   depends_on 'mulle-objc/software/mulle-concurrent'
+   depends_on 'mulle-objc/software/mulle-vararg'
+
    depends_on 'mulle-kybernetik/software/mulle-build' => :build
+   depends_on 'mulle-kybernetik/software/mulle-bootstrap' => :build
+   depends_on 'cmake' => :build
 
    def install
       system "mulle-install", "-e", "--prefix", "#{prefix}"
