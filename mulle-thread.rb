@@ -1,9 +1,9 @@
 class MulleThread < Formula
    homepage "https://github.com/mulle-nat/mulle-thread"
    desc "Cross-platform threads and atomic operations"
-   url "https://github.com/mulle-nat/mulle-thread/archive/3.2.13.tar.gz"
-   version "3.2.13"
-   sha256 "9120c4b192bd3ad7ccbffa42db6d3a38eb9147ecea47b3ca5da97aa5b79ccd8b"
+   url "https://github.com/mulle-nat/mulle-thread/archive/3.2.15.tar.gz"
+   version "3.2.15"
+   sha256 "ebad984d660e6ffc41c7cd689ac71b181cc2fa3f6cda7c36e18fff93d56e83b0"
 
    depends_on 'mulle-kybernetik/software/mulle-c11'
    depends_on 'mulle-kybernetik/software/mulle-build' => :build
