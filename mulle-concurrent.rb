@@ -11,7 +11,7 @@ class MulleConcurrent < Formula
    depends_on 'mulle-kybernetik/software/mulle-build' => :build
 
    def install
-      system "mulle-install", "-e", "--prefix", "#{prefix}"
+      system "mulle-install", "--prefix", "#{prefix}", "--homebrew"
    end
 
    test do

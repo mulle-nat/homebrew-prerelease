@@ -13,7 +13,7 @@ class MulleObjcRuntime < Formula
    depends_on 'cmake' => :build
 
    def install
-      system "mulle-install", "-e", "--prefix", "#{prefix}"
+      system "mulle-install", "--prefix", "#{prefix}", "--homebrew"
    end
 
    test do
