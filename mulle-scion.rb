@@ -5,7 +5,7 @@ class MulleScion < Formula
   version "1854"
   sha256 "a6b305171a7a2e1839134e972c28d7adb43e8e4ab4c77740d1bd4238c4d2fb9a"
 
-  depends_on "mulle-bootstrap"
+  depends_on "mulle-kybernetik/software/mulle-bootstrap"
   depends_on :xcode => :build
   depends_on :macos => :snow_leopard
 
