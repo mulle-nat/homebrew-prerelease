@@ -1,9 +1,9 @@
 class MulleUtf < Formula
    homepage "https://github.com/mulle-nat/mulle-utf"
    desc "UTF8-16-32 analysis, conversion, classification library"
-   url "https://github.com/mulle-nat/mulle-utf/archive/1.0.5.tar.gz"
-   version "1.0.5"
-   sha256 "22aa145cc4c51d02b0b645083b2c03d911a3ddf07470aec9a62a793e6c127a45"
+   url "https://github.com/mulle-nat/mulle-utf/archive/1.0.7.tar.gz"
+   version "1.0.7"
+   sha256 "1b8ea78e5cb4f2128bf2fe6f455bfcd346d9d7ac81a41b55e65b0038e10d3d6e"
 
    depends_on '${DEPENDENCY_TAP}/mulle-c11'
    depends_on '${DEPENDENCY_TAP}/mulle-allocator'
