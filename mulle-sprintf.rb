@@ -1,9 +1,9 @@
 class MulleSprintf < Formula
    homepage "https://github.com/mulle-nat/mulle-sprintf"
    desc " An extensible sprintf function supporting stdarg and mulle-vararg"
-   url "https://github.com/mulle-nat/mulle-sprintf/archive/0.7.7.tar.gz"
-   version "0.7.7"
-   sha256 "1f913ab5cd3600319e1c030e945ca68e9cec949d48157100d0732e5729efdc71"
+   url "https://github.com/mulle-nat/mulle-sprintf/archive/0.7.9.tar.gz"
+   version "0.7.9"
+   sha256 "3971725f3204593ccdf404e260f22afb22dafbb8c525a103abd044003704178d"
 
    depends_on 'mulle-kybernetik/software/mulle-buffer'
    depends_on 'mulle-kybernetik/software/mulle-utf'
