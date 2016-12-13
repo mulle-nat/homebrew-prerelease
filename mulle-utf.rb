@@ -5,12 +5,11 @@ class MulleUtf < Formula
    version "1.0.7"
    sha256 "1b8ea78e5cb4f2128bf2fe6f455bfcd346d9d7ac81a41b55e65b0038e10d3d6e"
 
-   depends_on '${DEPENDENCY_TAP}/mulle-c11'
-   depends_on '${DEPENDENCY_TAP}/mulle-allocator'
-   depends_on 'mulle-build' => :build
+   depends_on 'mulle-kybernetik/software/mulle-allocator'
+   depends_on 'mulle-kybernetik/software/mulle-build' => :build
 
    def install
-      system "mulle-install", "-e", "--prefix", "#{prefix}"
+      system "mulle-install", "--prefix", "#{prefix}", "--homebrew"
    end
 
    test do
