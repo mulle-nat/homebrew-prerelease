@@ -1,15 +1,15 @@
 class MulleUtf < Formula
    homepage "https://github.com/mulle-nat/mulle-utf"
    desc "UTF8-16-32 analysis, conversion, classification library"
-   url "https://github.com/mulle-nat/mulle-utf/archive/1.0.7.tar.gz"
-   version "1.0.7"
-   sha256 "1b8ea78e5cb4f2128bf2fe6f455bfcd346d9d7ac81a41b55e65b0038e10d3d6e"
+   url "https://github.com/mulle-nat/mulle-utf/archive/1.0.9.tar.gz"
+   version "1.0.9"
+   sha256 "df9d98c3ee0681063011dd85d0d783e1714bf12d95699209021b3039204274e6"
 
    depends_on 'mulle-kybernetik/software/mulle-allocator'
    depends_on 'mulle-kybernetik/software/mulle-build' => :build
 
    def install
-      system "mulle-install", "--prefix", "#{prefix}", "--homebrew"
+      system "mulle-install", "-e", "--prefix", "#{prefix}"
    end
 
    test do
