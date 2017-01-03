@@ -1,16 +1,14 @@
 class MulleC11 < Formula
-   homepage "https://github.com/mulle-objc/mulle-c11"
+   homepage "https://github.com/mulle-nat/mulle-c11"
    desc "Cross-platform compiler glue"
-   url "https://github.com/mulle-objc/mulle-c11/archive/1.0.4.tar.gz"
-   version "1.0.4"
-   sha256 "551f296293295b97671431028bc2cce4538a96cbc8c91e323d5824d31bfb6136"
+   url "https://github.com/mulle-nat/mulle-c11/archive/1.1.1.tar.gz"
+   version "1.1.1"
+   sha256 "54460d4d89c94a6814624677d61246cde9e3d53969c3b0fea3e7820f22a08e20"
 
-   depends_on 'cmake' => :build
-   depends_on 'mulle-kybernetik/software/mulle-bootstrap' => :build
    depends_on 'mulle-kybernetik/software/mulle-build' => :build
 
    def install
-      system "mulle-install", "--prefix", "#{prefix}", "--homebrew"
+      system "mulle-install", "-e", "--prefix", "#{prefix}"
    end
 
    test do
