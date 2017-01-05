@@ -1,9 +1,9 @@
 class MulleXcodeSettings < Formula
   homepage "http://www.mulle-kybernetik.com/software/git/mulle-xcode-settings"
   desc "change Xcode project build settings from the command line"
-  url "http://www.mulle-kybernetik.com/software/git/mulle-xcode-settings/tarball/1.0.4"
-  version "1.0.4"
-  sha256 "657756dc1094a7ed1ae5ddbd8adbaeac0ddbe4147b8d3d60feb2f272c1501b2b"
+  url "http://www.mulle-kybernetik.com/software/git/mulle-xcode-settings/tarball/1.1.0"
+  version "1.1.0"
+  sha256 "a62b2507d2bcf38a5cae6eeb9cca22586a33e61e30d56a26b187e35cde73a06a"
 
   depends_on :xcode => :build
   depends_on :macos => :snow_leopard
