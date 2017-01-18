@@ -1,9 +1,9 @@
 class MulleXcodeToCmake < Formula
   homepage "http://www.mulle-kybernetik.com/software/git/mulle-xcode-to-cmake"
   desc "Convert Xcode projects to cmake CMakeLists.txt "
-  url "http://www.mulle-kybernetik.com/software/git/mulle-xcode-to-cmake/tarball/0.3.0"
-  version "0.3.0"
-  sha256 "77ad116b322322550c98b0ae3c109c5963e1fce31b0ffe658108673716bb2aa5"
+  url "http://www.mulle-kybernetik.com/software/git/mulle-xcode-to-cmake/tarball/0.4.0"
+  version "0.4.0"
+  sha256 "6678263968198131039bb1368408fccdd0a24fdf7f07f87212c697afca66d2bb"
 
   depends_on :xcode => :build
   depends_on :macos => :snow_leopard
