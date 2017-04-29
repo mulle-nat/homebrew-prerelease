@@ -1,8 +1,8 @@
 class MulleObjcRuntime < Formula
    homepage "https://github.com/mulle-objc/mulle-objc"
    desc "An Objective-C runtime, written 100% in C"
-   url "https://github.com/mulle-objc/mulle-objc-runtime/archive/0.2.1.tar.gz"
-   version "0.2.1"
+   url "https://github.com/mulle-objc/mulle-objc-runtime/archive/0.5.1.tar.gz"
+   version "0.5.1"
    sha256 "395408a3dc9c3db2b5c200b8722a13a60898c861633b99e6e250186adffd1370"
 
    depends_on 'mulle-objc/software/mulle-concurrent'
