@@ -1,10 +1,9 @@
 class MulleObjcDeveloper < Formula
-   homepage "/mulle-objc-developer"
+   homepage "https://github.com/mulle-nat/mulle-objc-developer"
    desc "mulle-objc Developer Environment"
-   url "https://github.com/mulle-nat/mulle-objc-developer/archive/0.4.3.tar.gz"
-   version "0.4.3"
-   sha256 "32b14a6bcb51fa44e178c2f408432631a308a41e62f9000ecb84cbfc7a7434cf"
-
+   url "https://github.com/mulle-nat/mulle-objc-developer/archive/0.5.1.tar.gz"
+   version "0.5.1"
+   sha256 "c6d8f61adcc1e198cbe08baca1f559bae18f2760d9acbb774b9a193b3d188f37"
    depends_on 'mulle-kybernetik/software/mulle-allocator'
    depends_on 'mulle-kybernetik/software/mulle-c11'
    depends_on 'mulle-kybernetik/software/mulle-concurrent'
@@ -14,10 +13,10 @@ class MulleObjcDeveloper < Formula
    depends_on 'mulle-kybernetik/software/mulle-objc-runtime'
    depends_on 'mulle-kybernetik/software/MulleObjC'
    depends_on 'codeon-gmbh/software/mulle-clang'
-   depends_on 'mulle-kybernetik/software/mulle-build' => :build
+   depends_on 'mulle-kybernetik/alpha/mulle-build' => :build
 
    def install
-      system "mulle-install", "-e", "--prefix", "#{prefix}"
+      system "mulle-install", "--prefix", "#{prefix}", "--homebrew"
    end
 
    test do
