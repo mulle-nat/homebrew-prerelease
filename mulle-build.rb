@@ -1,9 +1,9 @@
 class MulleBuild < Formula
   homepage "http://www.mulle-kybernetik.com/software/git/mulle-build"
   desc "Cross-platform builder using cmake and mulle-bootstrap"
-  url "http://www.mulle-kybernetik.com/software/git/mulle-build/tarball/3.6.2"
-  version "3.6.2"
-  sha256 "0ae32d86388f82d51537097fe864aa213dee2b919d84bfef6be7d674e91d60bb"
+  url "http://www.mulle-kybernetik.com/software/git/mulle-build/tarball/3.6.3"
+  version "3.6.3"
+  sha256 "41acb73ba617d20ffe37fecfed2edd940581234ae72d84fb7cc1d213573f1112"
 
   depends_on 'mulle-kybernetik/software/mulle-bootstrap' => :run
 
