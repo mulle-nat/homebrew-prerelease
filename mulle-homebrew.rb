@@ -1,9 +1,9 @@
 class MulleHomebrew < Formula
   desc "Release and publish a project to a homebrew tap"
   homepage "https://github.com/mulle-nat/mulle-homebrew"
-  url "https://github.com/mulle-nat/mulle-homebrew/archive/3.4.4.tar.gz"
-  sha256 "d779613440a8dc64ab2eba785273870b3338aeb7ac59b12dd941ecd4ae5d9b5c"
-  # version "3.4.4"
+  url "https://github.com/mulle-nat/mulle-homebrew/archive/3.4.5.tar.gz"
+  sha256 "80f2d98fe37c344becd707f8a4291792de17dbef4a75431d0d7415b183263bf9"
+  # version "3.4.5"
 
   depends_on "mulle-kybernetik/software/mulle-bootstrap" => :build
   depends_on "mulle-kybernetik/software/mulle-build" => :build
