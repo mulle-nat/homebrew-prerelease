@@ -1,23 +1,21 @@
-class MulleScion < Formula
-  homepage "https://www.mulle-kybernetik.com/software/git/MulleScion"
-  desc "Templating Engine in Objective-C"
-  url "https://www.mulle-kybernetik.com/software/git/MulleScion/tarball/1854"
-  version "1854"
-  sha256 "a6b305171a7a2e1839134e972c28d7adb43e8e4ab4c77740d1bd4238c4d2fb9a"
+class Mullescion < Formula
+  desc "A modern template engine for Objective C"
+  homepage "https://github.com/mulle-nat/MulleScion"
+  url "https://github.com/mulle-nat/MulleScion/archive/1856.tar.gz"
+  sha256 "45b486b4e4ace6aeec91d8602fc4b0288fe34a54407bd33e1a0a1650a71c6a20"
+  # version "1856"
 
-  depends_on "mulle-kybernetik/software/mulle-bootstrap"
-  depends_on :xcode => :build
-  depends_on :macos => :snow_leopard
+  depends_on "mulle-kybernetik/software/mulle-build" => :build
+  depends_on "cmake" => :build
 
-#  depends_on "zlib"
   def install
-     system "mulle-bootstrap"
-     xcodebuild "install", "-target", "mulle-scion", "DSTROOT=/", "INSTALL_PATH=#{bin}"
+    system "mulle-install", "-vvv", "--prefix", prefix, "--homebrew"
   end
 
   test do
-    system pwd
-    system "(", "cd tests", ";", "./run-all-scion-tests.sh", "#{bin}/mulle-scion", ")"
+    if File.directory? 'tests'
+      system "mulle-test", "-vvv", "--fast-test"
+    end
   end
 end
-# FORMULA mulle-scion.rb
+# FORMULA MulleScion.rb
