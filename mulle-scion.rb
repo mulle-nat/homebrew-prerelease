@@ -1,9 +1,9 @@
 class MulleScion < Formula
   desc "A modern template engine for Objective C"
   homepage "https://github.com/mulle-nat/MulleScion"
-  url "https://github.com/mulle-nat/MulleScion/archive/1856.tar.gz"
-  sha256 "4d4e8815d69be3950362f2ba18b80a0dfd9ce9d70a1a82b16aa4f901e968be3c"
-  # version "1856"
+  url "https://github.com/mulle-nat/MulleScion/archive/1857.tar.gz"
+  sha256 "4b129607cd868cc08b50209ea55ab6cfd7fcfda4720a62ae6d15d7e31a6303d2"
+  # version "1857"
 
   depends_on "mulle-kybernetik/software/mulle-build" => :build
   depends_on "mulle-kybernetik/software/mulle-bootstrap" => :build
