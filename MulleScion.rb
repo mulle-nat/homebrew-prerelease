@@ -1,4 +1,4 @@
-class MulleScion < Formula
+class Mullescion < Formula
   desc "A modern template engine for Objective C"
   homepage "https://github.com/mulle-nat/MulleScion"
   url "https://github.com/mulle-nat/MulleScion/archive/1856.tar.gz"
