@@ -1,9 +1,9 @@
 class MulleXcodeToCmake < Formula
   desc "🎭 Convert Xcode projects to cmake CMakeLists.txt "
   homepage "https://github.com/mulle-nat/mulle-xcode-to-cmake"
-  url "https://github.com/mulle-nat/mulle-xcode-to-cmake/archive/0.6.3.tar.gz"
-  sha256 "e36e672b2732a7e33e93680c13906f2ef425364d26591b593bc924b3281fc1d5"
-  # version "0.6.3"
+  url "https://github.com/mulle-nat/mulle-xcode-to-cmake/archive/0.6.4.tar.gz"
+  sha256 "db38f73b0e3aa92e0cb9b559d87b3fb6181ea4079cd6075cacb0c68c4e2efcdf"
+  # version "0.6.4"
    def install
       xcodebuild "install", "-target", "mulle-xcode-to-cmake", "DSTROOT=/", "INSTALL_PATH=#{bin}"
    end
