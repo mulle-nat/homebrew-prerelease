@@ -1,19 +1,20 @@
 class MulleUtf < Formula
-   homepage "https://github.com/mulle-nat/mulle-utf"
-   desc "UTF8-16-32 analysis, conversion, classification library"
-   url "https://github.com/mulle-nat/mulle-utf/archive/1.0.9.tar.gz"
-   version "1.0.9"
-   sha256 "df9d98c3ee0681063011dd85d0d783e1714bf12d95699209021b3039204274e6"
+  desc "UTF8-16-32 analysis, conversion, classification library"
+  homepage "https://github.com/mulle-nat/mulle-utf"
+  url "https://github.com/mulle-nat/mulle-utf/archive/1.0.11.tar.gz"
+  sha256 "658c81dc1f9defa76f0899c6d26d7aadadf6cb3a66fc3752933b7deb565dbd77"
+  # version "1.0.11"
 
-   depends_on 'mulle-kybernetik/software/mulle-allocator'
-   depends_on 'mulle-kybernetik/software/mulle-build' => :build
+  depends_on "mulle-kybernetik/software/mulle-allocator"
 
-   def install
-      system "mulle-install", "-e", "--prefix", "#{prefix}"
-   end
+  def install
+    system "mulle-install", "-vvv", "--prefix", prefix, "--homebrew"
+  end
 
-   test do
-      system "mulle-test"
-   end
+  test do
+    if File.directory? 'tests'
+      system "mulle-test", "-vvv", "--fast-test"
+    end
+  end
 end
 # FORMULA mulle-utf.rb
