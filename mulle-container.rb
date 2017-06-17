@@ -1,23 +1,21 @@
 class MulleContainer < Formula
-   homepage "https://github.com/mulle-nat/mulle-container"
-   desc "Sets, hashtables, byte buffers and more, written in C"
-   url "https://github.com/mulle-nat/mulle-container/archive/0.8.9.tar.gz"
-   version "0.8.9"
-   sha256 "f2521871bbd8521ab2cf8792dbf6f4571224d34975e616ca22f8615e7101b96a"
+  desc "Sets, hashtables, byte buffers and more, written in C"
+  homepage "https://github.com/mulle-nat/mulle-container"
+  url "https://github.com/mulle-nat/mulle-container/archive/0.9.1.tar.gz"
+  sha256 "806ad965adc89dbe10eade7784797b6aa49e9617b7e68ac27a3e5116f74ad436"
+  # version "0.9.1"
 
-   depends_on 'mulle-kybernetik/software/mulle-c11'
-   depends_on 'mulle-kybernetik/software/mulle-allocator'
+  depends_on "mulle-kybernetik/software/mulle-c11"
+  depends_on "mulle-kybernetik/software/mulle-allocator"
 
-   depends_on 'mulle-kybernetik/software/mulle-build' => :build
-   depends_on 'mulle-kybernetik/software/mulle-bootstrap' => :build
-   depends_on 'cmake' => :build
+  def install
+    system "mulle-install", "-vvv", "--prefix", prefix, "--homebrew"
+  end
 
-   def install
-      system "mulle-install", "--prefix", "#{prefix}", "--homebrew"
-   end
-
-   test do
-      system "mulle-test"
-   end
+  test do
+    if File.directory? 'tests'
+      system "mulle-test", "-vvv", "--fast-test"
+    end
+  end
 end
 # FORMULA mulle-container.rb
