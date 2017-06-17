@@ -1,19 +1,20 @@
 class MulleVararg < Formula
-   homepage "https://github.com/mulle-nat/mulle-vararg"
-   desc "Access variable arguments in struct layout fashion"
-   url "https://github.com/mulle-nat/mulle-vararg/archive/0.5.13.tar.gz"
-   version "0.5.13"
-   sha256 "422719a63a3a4d1b65db8ffa2ecad9522ddc78a1cbce58f7f10b58dfbada7e1a"
+  desc "Access variable arguments in struct layout fashion"
+  homepage "https://github.com/mulle-nat/mulle-vararg"
+  url "https://github.com/mulle-nat/mulle-vararg/archive/0.5.15.tar.gz"
+  sha256 "071a7a756c50f0695078f49856c2d0ea40078fcc79416eca3678247e41f103d3"
+  # version "0.5.15"
 
-   depends_on 'mulle-kybernetik/software/mulle-c11'
-   depends_on 'mulle-kybernetik/software/mulle-build' => :build
+  depends_on "mulle-kybernetik/software/mulle-c11"
 
-   def install
-      system "mulle-install", "--prefix", "#{prefix}", "--homebrew"
-   end
+  def install
+    system "mulle-install", "-vvv", "--prefix", prefix, "--homebrew"
+  end
 
-   test do
-      system "mulle-test"
-   end
+  test do
+    if File.directory? 'tests'
+      system "mulle-test", "-vvv", "--fast-test"
+    end
+  end
 end
 # FORMULA mulle-vararg.rb
