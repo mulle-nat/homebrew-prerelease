@@ -1,18 +1,18 @@
 class MulleC11 < Formula
-   homepage "https://github.com/mulle-nat/mulle-c11"
-   desc "Cross-platform compiler glue"
-   url "https://github.com/mulle-nat/mulle-c11/archive/1.1.1.tar.gz"
-   version "1.1.1"
-   sha256 "54460d4d89c94a6814624677d61246cde9e3d53969c3b0fea3e7820f22a08e20"
+  desc "Cross-platform compiler glue"
+  homepage "https://github.com/mulle-nat/mulle-c11"
+  url "https://github.com/mulle-nat/mulle-c11/archive/1.1.3.tar.gz"
+  sha256 "23c43b53288e3ff14fbaa784d07a56fb05079ae35b5c1060043352f59ff489bd"
+  # version "1.1.3"
 
-   depends_on 'mulle-kybernetik/software/mulle-build' => :build
+  def install
+    system "mulle-install", "-vvv", "--prefix", prefix, "--homebrew"
+  end
 
-   def install
-      system "mulle-install", "-e", "--prefix", "#{prefix}"
-   end
-
-   test do
-      system "mulle-test"
-   end
+  test do
+    if File.directory? 'tests'
+      system "mulle-test", "-vvv", "--fast-test"
+    end
+  end
 end
 # FORMULA mulle-c11.rb
