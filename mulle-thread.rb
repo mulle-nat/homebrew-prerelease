@@ -1,22 +1,20 @@
 class MulleThread < Formula
-   homepage "https://github.com/mulle-nat/mulle-thread"
-   desc "Cross-platform threads and atomic operations"
-   url "https://github.com/mulle-nat/mulle-thread/archive/3.3.3.tar.gz"
-   version "3.3.3"
-   sha256 "e72139f7fe83f8df3a6cf6ef0406a904c8a5180f2e94e22fefb742aa376e90ff"
+  desc "Cross-platform threads and atomic operations"
+  homepage "https://github.com/mulle-nat/mulle-thread"
+  url "https://github.com/mulle-nat/mulle-thread/archive/3.3.5.tar.gz"
+  sha256 "23557a109261c2cf1e0deabb865c2fcb43493b5e879c1e757e1aa62e30ae05bc"
+  # version "3.3.5"
 
-   depends_on 'mulle-kybernetik/software/mulle-c11'
+  depends_on "mulle-kybernetik/software/mulle-c11"
 
-   depends_on 'mulle-kybernetik/software/mulle-build' => :build
-   depends_on 'mulle-kybernetik/software/mulle-bootstrap' => :build
-   depends_on 'cmake' => :build
+  def install
+    system "mulle-install", "-vvv", "--prefix", prefix, "--homebrew"
+  end
 
-   def install
-      system "mulle-install", "--prefix", "#{prefix}", "--homebrew"
-   end
-
-   test do
-      system "mulle-test"
-   end
+  test do
+    if File.directory? 'tests'
+      system "mulle-test", "-vvv", "--fast-test"
+    end
+  end
 end
 # FORMULA mulle-thread.rb
