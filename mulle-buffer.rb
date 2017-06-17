@@ -1,20 +1,21 @@
 class MulleBuffer < Formula
-   homepage "https://github.com/mulle-nat/mulle-buffer"
-   desc "A growable C array of unsigned chars"
-   url "https://github.com/mulle-nat/mulle-buffer/archive/0.4.5.tar.gz"
-   version "0.4.5"
-   sha256 "6159f888a5ab59d67c602afa903f4ca248dd9acba3905dba627899190225483d"
+  desc "A growable C array of unsigned chars"
+  homepage "https://github.com/mulle-nat/mulle-buffer"
+  url "https://github.com/mulle-nat/mulle-buffer/archive/0.4.7.tar.gz"
+  sha256 "13c0ce7b0be1628759124c61ccf252b23b967e7d9daa0289199e6635995f53d8"
+  # version "0.4.7"
 
-   depends_on 'mulle-kybernetik/software/mulle-c11'
-   depends_on 'mulle-kybernetik/software/mulle-allocator'
-   depends_on 'mulle-kybernetik/software/mulle-build' => :build
+  depends_on "mulle-kybernetik/software/mulle-c11"
+  depends_on "mulle-kybernetik/software/mulle-allocator"
 
-   def install
-      system "mulle-install", "-e", "--prefix", "#{prefix}"
-   end
+  def install
+    system "mulle-install", "-vvv", "--prefix", prefix, "--homebrew"
+  end
 
-   test do
-      system "mulle-test"
-   end
+  test do
+    if File.directory? 'tests'
+      system "mulle-test", "-vvv", "--fast-test"
+    end
+  end
 end
 # FORMULA mulle-buffer.rb
