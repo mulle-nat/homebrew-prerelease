@@ -1,9 +1,9 @@
 class Mulleobjc < Formula
   desc "MyProject does this and that"
   homepage "https://github.com/mulle-nat/MulleObjC"
-  url "https://github.com/mulle-nat/MulleObjC/archive/0.8.5.tar.gz"
-  sha256 "f446b157dc28d30770aea784b84b1bc5439f0653ef20f9ccf338b3fb5f1edee9"
-  # version "0.8.5"
+  url "https://github.com/mulle-nat/MulleObjC/archive/0.9.1.tar.gz"
+  sha256 "dd8b4065c95d7ed103773674db77f67e83890ad8071b037a484ed9993f700e9b"
+  # version "0.9.1"
 
   depends_on "mulle-kybernetik/software/mulle-objc-runtime"
   depends_on "mulle-kybernetik/software/mulle-objc-list"
