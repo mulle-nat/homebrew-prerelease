@@ -1,9 +1,9 @@
 class MulleHomebrew < Formula
-  desc "Script to create a homebrew release of a project for a non-official tap"
+  desc "mulle-homebrew is ..."
   homepage "https://github.com/mulle-nat/mulle-homebrew"
-  url "https://github.com/mulle-nat/mulle-homebrew/archive/4.1.0.tar.gz"
-  sha256 "612f1a720fb43ff8369c82d5ecaf51376dc9cd47b336e3cbd4181487adcece92"
-  # version "4.1.0"
+  url "https://github.com/mulle-nat/mulle-homebrew/archive/5.0.0.tar.gz"
+  sha256 "fc3997ba508f0784472266d9ac0b0070c8d2f285f1bb300b05683ad68b949750"
+  # version "5.0.0"
 
   depends_on "mulle-kybernetik/software/mulle-build" => :build
   depends_on "mulle-kybernetik/software/mulle-bootstrap" => :build
