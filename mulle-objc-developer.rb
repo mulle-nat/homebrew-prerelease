@@ -1,16 +1,12 @@
 class MulleObjcDeveloper < Formula
-  desc "mulle-objc Developer Environment"
+  desc "🎁 Developer tools for mulle-objc"
   homepage "https://github.com/mulle-nat/mulle-objc-developer"
-  url "https://github.com/mulle-nat/mulle-objc-developer/archive/0.8.4.tar.gz"
-  sha256 "3e34a4617d2c9f02c996b801bf719298e9a375648997c3e9510978bef589c375"
-  # version "0.8.4"
+  url "https://github.com/mulle-nat/mulle-objc-developer/archive/0.9.1.tar.gz"
+  sha256 "4e755e370a05c62838fb52f4423e30cd300b65a3902d3d8fdf5facd5bd06f315"
+  # version "0.9.1"
 
-  depends_on "mulle-kybernetik/software/mulle-bootstrap"
-  depends_on "mulle-kybernetik/software/mulle-build"
-  depends_on "codeon-gmbh/software/mulle-clang"
-
-  depends_on "mulle-kybernetik/software/mulle-bootstrap" => :build
   depends_on "mulle-kybernetik/software/mulle-build" => :build
+  depends_on "mulle-kybernetik/software/mulle-bootstrap" => :build
   depends_on "cmake" => :build
 
   def install
