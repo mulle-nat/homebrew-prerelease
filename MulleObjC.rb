@@ -2,7 +2,7 @@ class Mulleobjc < Formula
   desc "Objective-C root classes using the mulle-objc runtime"
   homepage "https://github.com/mulle-nat/MulleObjC"
   url "https://github.com/mulle-nat/MulleObjC/archive/0.9.1.tar.gz"
-  sha256 "d0d5a64e1e0f8286c23f1eb078fb8a268bad571c07bec00fadbe8390d15fb205"
+  sha256 "6319b961e0ab5780325a692ea5a8d147d48ade95006d58477e8c4f1cd01fcda6"
   # version "0.9.1"
 
   depends_on "mulle-kybernetik/software/mulle-objc-runtime"
