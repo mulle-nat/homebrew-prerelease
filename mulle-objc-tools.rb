@@ -2,7 +2,7 @@ class MulleObjcTools < Formula
   desc "🔧Tools for mulle-objc development and to maintain mulle-objc forks"
   homepage "https://github.com/mulle-nat/mulle-objc-tools"
   url "https://github.com/mulle-nat/mulle-objc-tools/archive/0.9.1.tar.gz"
-  sha256 "ff52c8df99c34472be934ae7c73f4f4bc79a0252271676db900624ff97aed3e8"
+  sha256 "6a0a061f761a4b26bf9b0cd7d04987b8e688d798351208704d59b50328d87f6a"
   # version "0.9.1"
 
   depends_on "mulle-kybernetik/software/mulle-build" => :build
