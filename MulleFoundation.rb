@@ -2,7 +2,7 @@ class Mullefoundation < Formula
   desc "💎 The Foundation library for mulle-objc"
   homepage "https://github.com/mulle-nat/MulleFoundation"
   url "https://github.com/mulle-nat/MulleFoundation/archive/0.9.1.tar.gz"
-  sha256 "32606737c8bb1564aa1165bcbeaa59bf46405d5306d164487ea528e9bf9e42ae"
+  sha256 "9f0581cc400eee4a2faeb403d1776aa84e4e4f6b5d91a608f09b9822054e6c3d"
   # version "0.9.1"
 
   depends_on "mulle-kybernetik/software/mulle-build" => :build
