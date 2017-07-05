@@ -2,7 +2,7 @@ class MulleAba < Formula
   desc "A portable, lock-free solution to the ABA problem in C"
   homepage "https://github.com/mulle-nat/mulle-aba"
   url "https://github.com/mulle-nat/mulle-aba/archive/1.4.9.tar.gz"
-  sha256 "395408a3dc9c3db2b5c200b8722a13a60898c861633b99e6e250186adffd1370"
+  sha256 "67a0a9d51e33638640287ab4e3ce49a5ed05448dc8337edd00ba5655dace8f32"
   # version "1.4.9"
 
   depends_on "mulle-kybernetik/software/mulle-c11"
