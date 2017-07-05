@@ -2,7 +2,7 @@ class MulleObjcDeveloper < Formula
   desc "🎁 Developer tools for mulle-objc"
   homepage "https://github.com/mulle-nat/mulle-objc-developer"
   url "https://github.com/mulle-nat/mulle-objc-developer/archive/0.9.1.tar.gz"
-  sha256 "1ae47cf789f7d098938409f687b19d756704d4e1d6c4f81b07332fedec4b753f"
+  sha256 "0ffaf336eb98af1233fc9ea7fa42b9d2bed1d9cf551f338a55650d8863e3b433"
   # version "0.9.1"
 
   depends_on "mulle-kybernetik/software/mulle-bootstrap"
