@@ -2,7 +2,7 @@ class MulleObjcRuntime < Formula
   desc "An Objective-C runtime, written 100% in C"
   homepage "https://github.com/mulle-nat/mulle-objc-runtime"
   url "https://github.com/mulle-nat/mulle-objc-runtime/archive/0.9.1.tar.gz"
-  sha256 "44003ea6da8e0ae401549bd8d1220838bc3706eca2ebf9354cd12332422fd10e"
+  sha256 "da4e49f3269253688a8b6f19ac561aaea8c196c740a1e55051e319fdc7617a76"
   # version "0.9.1"
 
   depends_on "mulle-kybernetik/software/mulle-concurrent"
