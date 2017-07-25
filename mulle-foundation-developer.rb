@@ -2,7 +2,7 @@ class MulleFoundationDeveloper < Formula
   desc "🎁 Developer tools for mulle-objc with MulleFoundation support"
   homepage "https://github.com/mulle-nat/mulle-foundation-developer"
   url "https://github.com/mulle-nat/mulle-foundation-developer/archive/0.9.1.tar.gz"
-  sha256 "f058cffdd55926a6311c88a309a80317206210dc6adcfc87f2709e936861e5a4"
+  sha256 "739937a27ecda2ac57ae4f1b7998cb1d0164b7eb097400c5cb28e233d41f4558"
   # version "0.9.1"
 
   depends_on "mulle-kybernetik/software/mulle-objc-developer"
