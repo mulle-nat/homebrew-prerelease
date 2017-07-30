@@ -1,9 +1,9 @@
 class MulleSde < Formula
   desc "🌳 Virtual environment for C and Objective-C"
   homepage "https://github.com/mulle-nat/mulle-sde"
-  url "https://github.com/mulle-nat/mulle-sde/archive/0.0.2.tar.gz"
-  sha256 "f310ae4e7a7cb463ba10f5e514d24dfa008687c9d0b07ccb8004e811e49bbcbb"
-  # version "0.0.2"
+  url "https://github.com/mulle-nat/mulle-sde/archive/0.0.3.tar.gz"
+  sha256 "bf2fff884096246a5f621ab0cc335641f6c39bb5b6a12b4675922e912fc01499"
+  # version "0.0.3"
 
   depends_on "mulle-kybernetik/software/mulle-bootstrap"
 
