@@ -1,9 +1,9 @@
 class MulleCCodeAlign < Formula
   desc "☛ Aligns assignments and variable declarations."
   homepage "https://github.com/mulle-nat/mulle-c-code-align"
-  url "https://github.com/mulle-nat/mulle-c-code-align/archive/1.1.1.tar.gz"
-  sha256 "963dd22c24530d46904e85a847b21fd639b8a7760b16b7cff29485e9301350ac"
-  # version "1.1.1"
+  url "https://github.com/mulle-nat/mulle-c-code-align/archive/1.1.2.tar.gz"
+  sha256 "486959a2e5cb0b7e971181fabb4eb9239f9610d582cad6a6c05983894f96ca3f"
+  # version "1.1.2"
 def install
    system "make", "install", "INSTALL_PATH=#{prefix}"
 end
