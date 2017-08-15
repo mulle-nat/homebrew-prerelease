@@ -1,20 +1,21 @@
 class MulleXcodeSettings < Formula
-  homepage "http://www.mulle-kybernetik.com/software/git/mulle-xcode-settings"
-  desc "Edit Xcode build settings from the command line"
-  url "http://www.mulle-kybernetik.com/software/git/mulle-xcode-settings/tarball/1.2.0"
-  version "1.2.0"
-  sha256 "b7fd93f95cea82dc8759587bf075a4a63f85f1c0054a990408601b741ce9d67a"
+  desc "🗿 Edit Xcode build settings from the command line"
+  homepage "https://github.com/mulle-nat/mulle-xcode-settings"
+  url "https://github.com/mulle-nat/mulle-xcode-settings/archive/1.2.1.tar.gz"
+  sha256 "6bf2bf96b40e01166d6673b52b99844a4a5a0af0a0263760ea2f867fb1c09061"
+  # version "1.2.1"
 
-  depends_on :xcode => :build
-  depends_on :macos => :snow_leopard
+  depends_on "mulle-kybernetik/software/mulle-build" => :build
+  depends_on "mulle-kybernetik/software/mulle-bootstrap" => :build
 
-#  depends_on "zlib"
   def install
-     xcodebuild "install", "-target", "mulle-xcode-settings", "DSTROOT=/", "INSTALL_PATH=#{bin}"
+    system "mulle-install", "-vvv", "--prefix", prefix, "--homebrew"
   end
 
   test do
-    system "#{bin}/mulle-xcode-settings", "-version"
+    if File.directory? 'tests'
+      system "mulle-test", "-vvv", "--fast-test"
+    end
   end
 end
 # FORMULA mulle-xcode-settings.rb
