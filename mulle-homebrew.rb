@@ -1,9 +1,9 @@
 class MulleHomebrew < Formula
   desc "mulle-homebrew is ..."
   homepage "https://github.com/mulle-nat/mulle-homebrew"
-  url "https://github.com/mulle-nat/mulle-homebrew/archive/5.1.0.tar.gz"
-  sha256 "603491c8f828911f844b6a1142e3559cc207316a54d06e384958b70332fea18a"
-  # version "5.1.0"
+  url "https://github.com/mulle-nat/mulle-homebrew/archive/5.2.0.tar.gz"
+  sha256 "7b18b67786639d953d89b48bd56cb492d6933532f88c74b4a796403048f43bc9"
+  # version "5.2.0"
 
   depends_on "mulle-kybernetik/software/mulle-build" => :build
   depends_on "mulle-kybernetik/software/mulle-bootstrap" => :build
