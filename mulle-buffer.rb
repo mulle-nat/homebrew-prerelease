@@ -1,9 +1,9 @@
 class MulleBuffer < Formula
   desc "A growable C array of unsigned chars"
   homepage "https://github.com/mulle-nat/mulle-buffer"
-  url "https://github.com/mulle-nat/mulle-buffer/archive/0.5.1.tar.gz"
-  sha256 "f2174d95f3b77dbcf80309927532f650d48100eab45e83fe8974bee0fd1daf46"
-  # version "0.5.1"
+  url "https://github.com/mulle-nat/mulle-buffer/archive/0.5.3.tar.gz"
+  sha256 "99be1fa29d079919901985b7e61fc304ddac59b9e1f3deac087deb018173f3b0"
+  # version "0.5.3"
 
   depends_on "mulle-kybernetik/software/mulle-c11"
   depends_on "mulle-kybernetik/software/mulle-allocator"
