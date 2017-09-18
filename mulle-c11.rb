@@ -1,9 +1,9 @@
 class MulleC11 < Formula
   desc "Cross-platform compiler glue"
   homepage "https://github.com/mulle-nat/mulle-c11"
-  url "https://github.com/mulle-nat/mulle-c11/archive/1.3.3.tar.gz"
-  sha256 "de9a44ca67cf86fd353d13f7615d72ad303e65edba43d08a8fc5dabdd8b55a9e"
-  # version "1.3.3"
+  url "https://github.com/mulle-nat/mulle-c11/archive/1.3.5.tar.gz"
+  sha256 "347e6b6ad7092fabe237edc4ef91ca416d3d38fc3758dde3f3d8629d671696b1"
+  # version "1.3.5"
 
   def install
     system "mulle-install", "-vvv", "--prefix", prefix, "--homebrew"
