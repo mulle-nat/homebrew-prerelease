@@ -1,9 +1,9 @@
 class MulleUtf < Formula
   desc "UTF8-16-32 analysis, conversion, classification library"
   homepage "https://github.com/mulle-nat/mulle-utf"
-  url "https://github.com/mulle-nat/mulle-utf/archive/1.1.3.tar.gz"
-  sha256 "683f07dd079ab900494a0d1e36fef6a637d3a2f912e11eabcbc94516938d1f87"
-  # version "1.1.3"
+  url "https://github.com/mulle-nat/mulle-utf/archive/1.1.5.tar.gz"
+  sha256 "daa49548d3ee47a362a80ab269603cff0c435e8e52140016ff157001caf853c1"
+  # version "1.1.5"
 
   depends_on "mulle-kybernetik/software/mulle-allocator"
 
