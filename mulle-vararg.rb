@@ -1,9 +1,9 @@
 class MulleVararg < Formula
   desc "Access variable arguments in struct layout fashion"
   homepage "https://github.com/mulle-nat/mulle-vararg"
-  url "https://github.com/mulle-nat/mulle-vararg/archive/0.5.21.tar.gz"
-  sha256 "5efef3a1b303a0def1ecfe37a2d8cbf1687cabab94dc55ef76dd260b85ad9c3e"
-  # version "0.5.21"
+  url "https://github.com/mulle-nat/mulle-vararg/archive/0.5.23.tar.gz"
+  sha256 "b46cfb031948491feb08d610bd3d09d2e2938f40d8cf5aa280170c4881f03209"
+  # version "0.5.23"
 
   depends_on "mulle-kybernetik/software/mulle-c11"
 
