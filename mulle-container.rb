@@ -1,9 +1,9 @@
 class MulleContainer < Formula
   desc "Sets, hashtables, byte buffers and more, written in C"
   homepage "https://github.com/mulle-nat/mulle-container"
-  url "https://github.com/mulle-nat/mulle-container/archive/0.10.3.tar.gz"
-  sha256 "6e4b81cba4895876aef7ab348afb7e15bef2dddc20cb9b885dba39c12b17bdd9"
-  # version "0.10.3"
+  url "https://github.com/mulle-nat/mulle-container/archive/0.10.5.tar.gz"
+  sha256 "2dae3b9afa425ffd47e465057fdb9f669c2f9aa47a79f5d522ebb2a09ce231c3"
+  # version "0.10.5"
 
   depends_on "mulle-kybernetik/software/mulle-c11"
   depends_on "mulle-kybernetik/software/mulle-allocator"
