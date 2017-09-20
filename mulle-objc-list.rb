@@ -1,9 +1,9 @@
 class MulleObjcList < Formula
   desc "mulle-objc-list list classes and categories or methods of a library"
   homepage "https://github.com/mulle-nat/mulle-objc-list"
-  url "https://github.com/mulle-nat/mulle-objc-list/archive/0.11.3.tar.gz"
-  sha256 "a5574edb0030cfc3564ce285ef507825ad2ecaddf77f1159ed7f3486b56c96b3"
-  # version "0.11.3"
+  url "https://github.com/mulle-nat/mulle-objc-list/archive/0.11.1.tar.gz"
+  sha256 "a8f40b0c8436c4c2872d76fd9a678651e309f9c1593a13b1f2be2bf91bf2c9bf"
+  # version "0.11.1"
 
   depends_on "mulle-kybernetik/software/mulle-objc-runtime"
 
