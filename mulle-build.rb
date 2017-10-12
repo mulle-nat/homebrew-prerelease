@@ -1,9 +1,9 @@
 class MulleBuild < Formula
   desc "🔨 Build and install tool on top of cmake and mulle-bootstrap"
   homepage "https://github.com/mulle-nat/mulle-build"
-  url "https://github.com/mulle-nat/mulle-build/archive/3.14.1.tar.gz"
-  sha256 "6d2988fdd1ae8e7a4156917fd8060b5a5cdd20f89debb8c1a40aa1203ccfc698"
-  # version "3.14.1"
+  url "https://github.com/mulle-nat/mulle-build/archive/3.14.2.tar.gz"
+  sha256 "fa78ca5157aa00f6903008d42880eaf11b5d652198fb943615eef6ab9a796634"
+  # version "3.14.2"
 
   depends_on "mulle-kybernetik/software/mulle-bootstrap"
   def install
