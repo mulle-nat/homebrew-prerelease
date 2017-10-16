@@ -1,9 +1,9 @@
 class MulleBootstrap < Formula
   desc "👢 Cross platform dependency manager for developers"
   homepage "https://github.com/mulle-nat/mulle-bootstrap"
-  url "https://github.com/mulle-nat/mulle-bootstrap/archive/3.14.1.tar.gz"
-  sha256 "a7532a3b4c46be57589eaf52a1eb0ec385f4e44507754ca9314b0d86c90c306e"
-  # version "3.14.1"
+  url "https://github.com/mulle-nat/mulle-bootstrap/archive/3.15.0.tar.gz"
+  sha256 "1c00cca2eca2b2ebddb26f01391e777d956f188fe6cde26bdd47cfc3779f924f"
+  # version "3.15.0"
 def install
   system "./install.sh", "#{prefix}"
 end
