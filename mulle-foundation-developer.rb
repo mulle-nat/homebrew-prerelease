@@ -2,7 +2,7 @@ class MulleFoundationDeveloper < Formula
   desc "🎁 Develop Objective-C with the MulleFoundation using mulle-objc"
   homepage "https://github.com/mulle-nat/mulle-foundation-developer"
   url "https://github.com/mulle-nat/mulle-foundation-developer/archive/0.12.1.tar.gz"
-  sha256 "c179343e91154b8dd57ec436f38d0750ca6f93ee711733e25f13feab9e45ce6c"
+  sha256 "1fda2a722ef9a70d779fed41017891744ef9937e05644aaecba222f4a5431c44"
   # version "0.12.1"
 
   depends_on "mulle-objc/software/mulle-objc-developer"
@@ -10,9 +10,10 @@ class MulleFoundationDeveloper < Formula
   depends_on "mulle-kybernetik/software/mulle-build" => :build
   depends_on "mulle-kybernetik/software/mulle-bootstrap" => :build
   depends_on "cmake" => :build
-
   def install
     system "mulle-install", "-vvv", "--prefix", prefix, "--homebrew"
+    ohai "Get started with a \"hello world\" example:"
+    ohai "    mulle-foundation-init -d hello executable"
   end
 
   test do
