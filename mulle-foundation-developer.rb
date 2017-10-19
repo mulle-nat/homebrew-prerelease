@@ -2,7 +2,7 @@ class MulleFoundationDeveloper < Formula
   desc "🎁 Develop Objective-C with the MulleFoundation using mulle-objc"
   homepage "https://github.com/mulle-nat/mulle-foundation-developer"
   url "https://github.com/mulle-nat/mulle-foundation-developer/archive/0.12.1.tar.gz"
-  sha256 "15eb069a0e714efacc3784addf53e48c154915d840315fde91764b2557217088"
+  sha256 "d26e85f6517812dad8ff0ab7057a482d9d73621b8a6e7a11772edf07ecde828c"
   # version "0.12.1"
 
   depends_on "mulle-objc/software/mulle-objc-developer"
