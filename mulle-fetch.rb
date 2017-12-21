@@ -1,11 +1,11 @@
 class MulleFetch < Formula
-  desc "🏃 Retrieve project archives or repostiories in various shapes and forms"
-  homepage "https://github.com/mulle-nat/mulle-fetch"
-  url "https://github.com/mulle-nat/mulle-fetch/archive/1.1.0.tar.gz"
-  sha256 "a26107395d6af6fe5e8b2eaddbc2849a27f7d9cbf2dbbfa3ea109a3a1b0cdbe0"
-  # version "1.1.0"
+desc "🏃 Download and unpack source repositories or archives "
+homepage "https://github.com/mulle-nat/mulle-fetch"
+url "https://github.com/mulle-nat/mulle-fetch/archive/1.1.1.tar.gz"
+sha256 "6b45f5f6efc374086f1637ac53400a023df8aa44eb7bb4786aff8520d9bfe6d5"
+# version "1.1.1"
 
-  depends_on "mulle-kybernetik/software/mulle-bashfunctions"
+depends_on "mulle-kybernetik/software/mulle-bashfunctions"
 def install
   system "./install.sh", "#{prefix}"
 end
