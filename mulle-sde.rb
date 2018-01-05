@@ -1,24 +1,15 @@
 class MulleSde < Formula
-  desc "🌳 Virtual environment for C and Objective-C"
-  homepage "https://github.com/mulle-nat/mulle-sde"
-  url "https://github.com/mulle-nat/mulle-sde/archive/0.5.0.tar.gz"
-  sha256 "8a8d420bd4abf44d3d2771591d8a22162c274ae85f4a31c68ff96a5daca1623e"
-  # version "0.5.0"
+desc "🏋🏼 Cross-platform development for C languages"
+homepage "https://github.com/mulle-nat/mulle-sde"
+url "https://github.com/mulle-nat/mulle-sde/archive/0.6.0.tar.gz"
+sha256 "bee4dc723c4f01b1eb4d7d716178efa3b26f71740c6e0322783cfb38e48a8f35"
+# version "0.6.0"
 
-  depends_on "mulle-kybernetik/software/mulle-bootstrap"
-
-  depends_on "mulle-kybernetik/software/mulle-build" => :build
-  depends_on "mulle-kybernetik/software/mulle-bootstrap" => :build
-  depends_on "cmake" => :build
-
-  def install
-    system "mulle-install", "-vvv", "--prefix", prefix, "--homebrew"
-  end
-
-  test do
-    if File.directory? 'tests'
-      system "mulle-test", "-vvv", "--fast-test"
-    end
-  end
+depends_on "mulle-kybernetik/software/mulle-bashfunctions"
+depends_on "mulle-kybernetik/software/mulle-env"
+depends_on "mulle-kybernetik/software/mulle-craft"
+def install
+  system "./install.sh", "#{prefix}"
+end
 end
 # FORMULA mulle-sde.rb
