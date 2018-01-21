@@ -1,9 +1,9 @@
 class MulleSde < Formula
 desc "🏋🏼 Cross-platform development for C languages"
 homepage "https://github.com/mulle-nat/mulle-sde"
-url "https://github.com/mulle-nat/mulle-sde/archive/0.6.1.tar.gz"
-sha256 "395408a3dc9c3db2b5c200b8722a13a60898c861633b99e6e250186adffd1370"
-# version "0.6.1"
+url "https://github.com/mulle-nat/mulle-sde/archive/0.7.0.tar.gz"
+sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+# version "0.7.0"
 
 depends_on "mulle-kybernetik/software/mulle-bashfunctions"
 depends_on "mulle-kybernetik/software/mulle-env"
