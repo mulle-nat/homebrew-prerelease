@@ -1,9 +1,9 @@
 class MulleMatch < Formula
 desc "💕 Match filenames against a set of .gitignore like patternfiles"
 homepage "https://github.com/mulle-sde/mulle-match"
-url "https://github.com/mulle-sde/mulle-match/archive/0.1.8.tar.gz"
-sha256 "923f354b8870e5dd348ac216f974183b397e46d5fc6391d2d3242f2bd159497c"
-# version "0.1.8"
+url "https://github.com/mulle-sde/mulle-match/archive/0.1.9.tar.gz"
+sha256 "0e8eb3b2dc57e1089ee6325a5e935d512a9578a32d54a2550237a757d1514d58"
+# version "0.1.9"
 
 depends_on "mulle-kybernetik/software/mulle-bashfunctions"
 def install
