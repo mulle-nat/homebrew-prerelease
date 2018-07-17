@@ -2,7 +2,7 @@ class MulleObjcDeveloper < Formula
 desc "🎩 mulle-objc developer kit for mulle-sde"
 homepage "https://github.com/mulle-objc/mulle-objc-developer"
 url "https://github.com/mulle-objc/mulle-objc-developer/archive/0.13.0.tar.gz"
-sha256 "5497b3645d63f414e39e46eeedc910cd7c7756b4d75f9cb7c08edb0c829d2a7e"
+sha256 "bfb15ea312ee64433a076b0e57f319e11ff596e1802d55723d4dbc6bbd61470c"
 # version "0.13.0"
 
 depends_on "mulle-kybernetik/software/mulle-c-developer"
