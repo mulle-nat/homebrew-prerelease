@@ -1,9 +1,9 @@
 class MulleCDeveloper < Formula
 desc "🧢 mulle-c developer kit for mulle-sde"
 homepage "https://github.com/mulle-c/mulle-c-developer"
-url "https://github.com/mulle-c/mulle-c-developer/archive/0.8.5.tar.gz"
-sha256 "4df04b6d81488bde8f89e94e4fd9120c74fe48dd47d0225fd193311cad101380"
-# version "0.8.5"
+url "https://github.com/mulle-c/mulle-c-developer/archive/0.8.6.tar.gz"
+sha256 "af2c09b5bc8064e6f0f14bcf8c8b046684cfcdd31dbf0ffc08f592e8ed4397da"
+# version "0.8.6"
 
 depends_on "mulle-kybernetik/software/mulle-sde-developer"
 def install
