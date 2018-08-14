@@ -1,9 +1,9 @@
 class MulleMake < Formula
 desc "💄 Build projects with tools like cmake, meson, autoconf"
 homepage "https://github.com/mulle-sde/mulle-make"
-url "https://github.com/mulle-sde/mulle-make/archive/0.5.1.tar.gz"
-sha256 "1c58e3daa1a6bad0f4aa8fada5b384702e0c0dcd04533894ad10d177ff7ab15b"
-# version "0.5.1"
+url "https://github.com/mulle-sde/mulle-make/archive/0.5.2.tar.gz"
+sha256 "03db5dc6c612e3dced0abe256b08b4b7d512a7586f2c3555b5e7ff1a39d8a3a6"
+# version "0.5.2"
 
 depends_on "mulle-kybernetik/software/mulle-bashfunctions"
 def install
