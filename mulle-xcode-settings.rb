@@ -2,7 +2,7 @@ class MulleXcodeSettings < Formula
 desc "🗿 Edit Xcode build settings from the command line"
 homepage "https://github.com/mulle-nat/mulle-xcode-settings"
 url "https://github.com/mulle-nat/mulle-xcode-settings/archive/1.2.6.tar.gz"
-sha256 ""
+sha256 "b956204fa861d1610c2d7047a4a1005265027adb6cf0b1a4c1068062947ccfdc"
 # version "1.2.6"
 
 depends_on "mulle-build" => :build
