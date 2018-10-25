@@ -1,23 +1,15 @@
 class MulleXcodeSettings < Formula
 desc "🗿 Edit Xcode build settings from the command line"
 homepage "https://github.com/mulle-nat/mulle-xcode-settings"
-url "https://github.com/mulle-nat/mulle-xcode-settings/archive/1.2.6.tar.gz"
-sha256 "b956204fa861d1610c2d7047a4a1005265027adb6cf0b1a4c1068062947ccfdc"
-# version "1.2.6"
+url "https://github.com/mulle-nat/mulle-xcode-settings/archive/1.2.7.tar.gz"
+sha256 "21a2059933b30eedf6545eac0baf93920f5ed862a19a6d0103a93f3960b1244f"
+# version "1.2.7"
 
 depends_on "mulle-build" => :build
 depends_on "mulle-bootstrap" => :build
 
-  def install
-    system "./configure", "--disable-debug",
-                          "--disable-dependency-tracking",
-                          "--disable-silent-rules",
-                          "--prefix=#{prefix}"
-    system "make", "install"
-  end
-
-  test do
-    system "false"
-  end
+def install
+  system "xcodebuild", "-configuration", "Release", "DSTROOT=#{prefix}", "install"
+end
 end
 # FORMULA mulle-xcode-settings.rb
