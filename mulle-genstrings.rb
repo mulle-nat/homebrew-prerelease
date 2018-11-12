@@ -3,7 +3,7 @@ class MulleGenstrings < Formula
   desc "a replacement for Apple's genstrings"
   url "https://www.mulle-kybernetik.com/software/git/mulle-genstrings/tarball/18.48.5"
   version "18.48.5"
-  sha256 "b44a601c89abdbe155700a230e005b680312ba1e9163eeb5d000bafe00016c06"
+  sha256 "0e382b493faf822d455b2ddeb22bdca0d3054afae0de812ce7f29f6381f96248"
 
   depends_on :xcode => :build
   depends_on :macos => :snow_leopard
