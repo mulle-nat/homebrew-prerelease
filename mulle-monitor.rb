@@ -1,9 +1,9 @@
 class MulleMonitor < Formula
 desc "🕵🏻‍ Extensible filesystem observation with callbacks"
 homepage "https://github.com/mulle-sde/mulle-monitor"
-url "https://github.com/mulle-sde/mulle-monitor/archive/0.6.2.tar.gz"
-sha256 "323eefc0719238f22fb0cf07bd6e2526648db546576813f6494ab6d617ab7deb"
-# version "0.6.2"
+url "https://github.com/mulle-sde/mulle-monitor/archive/0.6.3.tar.gz"
+sha256 "c0ff67362f352ba446d46deeb414dedfd854381ce9c6ca8b80117e0864fdde0b"
+# version "0.6.3"
 
 depends_on "mulle-kybernetik/software/mulle-match"
 depends_on "fswatch"
