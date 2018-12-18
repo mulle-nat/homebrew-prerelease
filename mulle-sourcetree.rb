@@ -1,13 +1,13 @@
 class MulleSourcetree < Formula
 desc "🌲 Project composition and maintenance with build support"
 homepage "https://github.com/mulle-sde/mulle-sourcetree"
-url "https://github.com/mulle-sde/mulle-sourcetree/archive/0.15.1.tar.gz"
-sha256 "96e3311fc7064d2d413671b2200f3a187412844c5c4fe6185d06147f6228b3dd"
-# version "0.15.1"
+url "https://github.com/mulle-sde/mulle-sourcetree/archive/0.16.0.tar.gz"
+sha256 "846a39809ef5f8c1f9c544ab3d546f09792ee16f6b9498cfc528817c10761ab2"
+# version "0.16.0"
 
 depends_on "mulle-kybernetik/software/mulle-fetch"
 def install
-  system "./installer", "#{prefix}"
+  system "./bin/installer", "#{prefix}"
 end
 end
 # FORMULA mulle-sourcetree.rb
