@@ -1,9 +1,9 @@
 class MulleTest < Formula
 desc "☑︎ Run tests and compare their results against expectations"
 homepage "https://github.com/mulle-sde/mulle-test"
-url "https://github.com/mulle-sde/mulle-test/archive/4.0.5.tar.gz"
-sha256 "4b75474ce367066e98bcf828fdb751756b3637a23b424cfc4161486326069ad7"
-# version "4.0.5"
+url "https://github.com/mulle-sde/mulle-test/archive/4.0.6.tar.gz"
+sha256 "479442d2ec19a691d8057d0918fce3316bace8112636f423fe05ff439680eab6"
+# version "4.0.6"
 
 depends_on "mulle-kybernetik/software/mulle-sde"
 depends_on "mulle-kybernetik/software/mulle-platform"
