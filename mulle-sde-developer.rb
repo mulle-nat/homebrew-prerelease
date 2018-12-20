@@ -1,9 +1,9 @@
 class MulleSdeDeveloper < Formula
 desc "🎓 mulle-sde installer + various extensions for mulle-sde"
 homepage "https://github.com/mulle-sde/mulle-sde-developer"
-url "https://github.com/mulle-sde/mulle-sde-developer/archive/0.13.4.tar.gz"
-sha256 "a4b68825f0898f9d915b0a1d5fd338d3d3081ceb2368790a6781d5bf9798e6cf"
-# version "0.13.4"
+url "https://github.com/mulle-sde/mulle-sde-developer/archive/0.13.5.tar.gz"
+sha256 "f850941708b6f25d5b61d859a66e864b71cc22cfc3fa47edde8770ba3a5dc658"
+# version "0.13.5"
 
 depends_on "mulle-kybernetik/software/mulle-sde"
 depends_on "cmake"
