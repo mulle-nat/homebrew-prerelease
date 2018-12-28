@@ -1,9 +1,9 @@
 class MulleDispense < Formula
 desc " 🚰 Copy build products and reorganize them "
 homepage "https://github.com/mulle-sde/mulle-dispense"
-url "https://github.com/mulle-sde/mulle-dispense/archive/0.6.0.tar.gz"
-sha256 "acd2ec09f02c273e3069a4c258d5cc3c60203c79aa08863c87f5f3bce611a55b"
-# version "0.6.0"
+url "https://github.com/mulle-sde/mulle-dispense/archive/0.6.1.tar.gz"
+sha256 "8385bc1ebc3e8a43033b8268ca71164c7455817cf46f154eee29ec8d1c952f15"
+# version "0.6.1"
 
 depends_on "mulle-kybernetik/software/mulle-bashfunctions"
 def install
