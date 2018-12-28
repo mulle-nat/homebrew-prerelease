@@ -34,21 +34,20 @@ mulle-scion      | a standalone MulleScion template interpreter. | [[homepage](h
 mulle-xcode-settings |  a tool to change Xcode project settings from the command line. |[[homepage](http://www.mulle-kybernetik.com/software/git/mulle-xcode-settings)]
 
 
+### IDEs: Linux, OS X, FreeBSD, Windows (bash, git-bash)
+
+
+Name                   | Description                         | Homepage
+-----------------------|-------------------------------------|-------------
+foundation-developer   | development kit for MulleFoundation | [[homepage](https://github.com/MulleFoundation)
+mulle-objc-developer   | development kit for mulle-objc.     | [[homepage](https://github.com/mulle-objc)
+mulle-core-developer   | development kit for mulle-core      | [[homepage](https://github.com/mulle-core)
+
 ### List of tools: Linux, OS X, FreeBSD, Windows (bash, git-bash)
 
 Name             | Description    | Homepage
 -----------------|----------------|-------------
-mulle-bootstrap  | a dependency manager for cmake and Xcode projects.       | [[homepage](https://www.mulle-kybernetik.com/software/git/mulle-bootstrap)]
-mulle-build      | an project build tool based on cmake and mulle-bootstrap | [[homepage](https://www.mulle-kybernetik.com/software/git/mulle-build)]
+mulle-sde        | a dependency manager for cmake and Xcode projects.       | [[homepage](https://github.com/mulle-sde)
+mulle-test       | test tools for mulle-sde    | [[homepage](https://github.com/mulle-sde)]
 
 
-### List of libraries: Linux, OS X, FreeBSD, Windows (bash, git-bash)
-
-Name             | Description    | Homepage
------------------|----------------|-------------
-mulle-aba        | a library for safe freeing of multi-threaded resources. | [[homepage](https://www.mulle-kybernetik.com/software/git/mulle-aba)]
-mulle-allocator  | a library for allocation and leak checking.             | [[homepage](https://www.mulle-kybernetik.com/software/git/mulle-allocator)]
-mulle-c11        | a header with C compiler glue                           | [[homepage](https://www.mulle-kybernetik.com/software/git/mulle-c11)]
-mulle-concurrent | a library for wait-free data structures.                | [[homepage](https://www.mulle-kybernetik.com/software/git/mulle-concurrent)]
-mulle-thread     | a library for threads and atomic operations.            | [[homepage](https://www.mulle-kybernetik.com/software/git/mulle-thread)]
-mulle-vararg     | a library for variable arguments.                       | [[homepage](https://www.mulle-kybernetik.com/software/git/mulle-vararg)]
