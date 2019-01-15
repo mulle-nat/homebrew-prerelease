@@ -1,9 +1,9 @@
 class FoundationDeveloper < Formula
 desc "👒 Objective C with mulle-sde and the mulle-objc Foundation"
 homepage "https://github.com/MulleFoundation/foundation-developer"
-url "https://github.com/MulleFoundation/foundation-developer/archive/0.14.1.tar.gz"
-sha256 "a950dbbd73f6dfc6753a1e39fd610fcc9dff0b0db0516ea3d3f541635b0b7a45"
-# version "0.14.1"
+url "https://github.com/MulleFoundation/foundation-developer/archive/0.14.2.tar.gz"
+sha256 "45b067e263d1065d369bdecef74d9d51796cef31391a5a349391d172702b0cf0"
+# version "0.14.2"
 
 depends_on "mulle-kybernetik/software/mulle-foundation-developer"
 def install
