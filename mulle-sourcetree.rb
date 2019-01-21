@@ -1,9 +1,9 @@
 class MulleSourcetree < Formula
 desc "🌲 Project composition and maintenance with build support"
 homepage "https://github.com/mulle-sde/mulle-sourcetree"
-url "https://github.com/mulle-sde/mulle-sourcetree/archive/0.17.5.tar.gz"
-sha256 "52eb76a861fbaa2df26d92aa63fee5116a38ef503b03d82262f24521fbe5d636"
-# version "0.17.5"
+url "https://github.com/mulle-sde/mulle-sourcetree/archive/0.17.6.tar.gz"
+sha256 "0dff9d8669b6d95a7700803dce1cc3005be7f08a2fabd7f7305881aa915eb55b"
+# version "0.17.6"
 
 depends_on "mulle-kybernetik/software/mulle-fetch"
 def install
