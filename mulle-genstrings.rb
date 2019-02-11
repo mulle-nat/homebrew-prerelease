@@ -6,7 +6,7 @@ class MulleGenstrings < Formula
   sha256 "0e382b493faf822d455b2ddeb22bdca0d3054afae0de812ce7f29f6381f96248"
 
   depends_on :xcode => :build
-  depends_on :macos => :snow_leopard
+  depends_on :macos 
 
 #  depends_on "zlib"
   def install
