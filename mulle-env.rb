@@ -1,9 +1,9 @@
 class MulleEnv < Formula
 desc "🌳 Virtual environment for C and Objective-C"
 homepage "https://github.com/mulle-sde/mulle-env"
-url "https://github.com/mulle-sde/mulle-env/archive/2.2.7.tar.gz"
-sha256 "5b79863591f0e38de1b32b3379a1e46a808c7bf31637710f127a0ae577acb94f"
-# version "2.2.7"
+url "https://github.com/mulle-sde/mulle-env/archive/2.3.0.tar.gz"
+sha256 "43d87cf8b3d3c1d893add57658df115d642123a03c8172ca5953121ea100ec95"
+# version "2.3.0"
 
 depends_on "mulle-kybernetik/software/mulle-bashfunctions"
 def install
