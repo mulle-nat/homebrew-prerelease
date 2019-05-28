@@ -1,22 +1,15 @@
 class MulleScion < Formula
-  desc "A modern template engine for Objective C"
-  homepage "https://github.com/mulle-nat/MulleScion"
-  url "https://github.com/mulle-nat/MulleScion/archive/1858.2.tar.gz"
-  sha256 "f9b7b9deca21f0e5c64fd54cb058946d43009caded83b6d94ae16fa490abd890"
-  # version "1858.2"
+desc "A modern template engine for Objective C"
+homepage "https://github.com/mulle-nat/MulleScion"
+url "https://github.com/mulle-nat/MulleScion/archive/1859.0.0.tar.gz"
+sha256 "8e9e7f08c6b2b095ba6f57daeeccc788dc1898bae1abb2ba6a77dbf352bbc7ed"
+# version "1859.0.0"
 
-  depends_on "mulle-kybernetik/software/mulle-build" => :build
-  depends_on "mulle-kybernetik/software/mulle-bootstrap" => :build
-  depends_on "cmake" => :build
-
-  def install
-    system "mulle-install", "-vvv", "--prefix", prefix, "--homebrew"
-  end
-
-  test do
-    if File.directory? 'tests'
-      system "mulle-test", "-vvv", "--fast-test"
-    end
-  end
+depends_on "mulle-build" => :build
+depends_on "mulle-bootstrap" => :build
+depends_on "cmake" => :build
+def install
+  system "xcodebuild", "-configuration", "Release", "DSTROOT=#{prefix}", "install"
+end
 end
 # FORMULA mulle-scion.rb
