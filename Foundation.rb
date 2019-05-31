@@ -19,6 +19,7 @@ depends_on "cmake" => :build
 depends_on "ninja" => :build
 
   def install
+    system "mulle-sde", "clean", "cache"
     system "mulle-sde","install","--standalone","--prefix","#{prefix}","https://github.com/MulleFoundation/Foundation/archive/latest.zip"
   end
 end
