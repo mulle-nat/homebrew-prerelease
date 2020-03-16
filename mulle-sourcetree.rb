@@ -2,7 +2,7 @@ class MulleSourcetree < Formula
 desc "🌲 Project composition and maintenance with build support"
 homepage "https://github.com/mulle-sde/mulle-sourcetree"
 url "https://github.com/mulle-sde/mulle-sourcetree/archive/0.21.0-prerelease.tar.gz"
-sha256 "16b691f32d386bf6cd480110390584b2efcfcb188ec929325d91e2b6e38eafa1"
+sha256 "9a2615a0b02df635be33ce0e534458d05d155696052e79942c4dd833436ddd6b"
 # version "0.21.0"
 
 depends_on "prerelease/prerelease/mulle-fetch"
