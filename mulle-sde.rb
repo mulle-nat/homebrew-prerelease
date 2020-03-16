@@ -1,17 +1,17 @@
 class MulleSde < Formula
 desc "💠 Cross-platform IDE for the command-line"
 homepage "https://github.com/mulle-sde/mulle-sde"
-url "https://github.com/mulle-sde/mulle-sde/archive/0.39.4.tar.gz"
-sha256 "5e8ad3db237edd2da764438f1688c78c41652dbf3f6af519bb8874cdbf5fcfec"
-# version "0.39.4"
+url "https://github.com/mulle-sde/mulle-sde/archive/0.40.0-prerelease.tar.gz"
+sha256 "6dcc078af4a8059a438987452e3c63835b8a5d4859fde07744ea60e5f2c8976e"
+# version "0.40.0"
 
-depends_on "mulle-kybernetik/software/mulle-bashfunctions"
-depends_on "mulle-kybernetik/software/mulle-env"
-depends_on "mulle-kybernetik/software/mulle-craft"
-depends_on "mulle-kybernetik/software/mulle-monitor"
-depends_on "mulle-kybernetik/software/mulle-platform"
-depends_on "mulle-kybernetik/software/mulle-sourcetree"
-depends_on "mulle-kybernetik/software/mulle-test"
+depends_on "prerelease/prerelease/mulle-bashfunctions"
+depends_on "prerelease/prerelease/mulle-env"
+depends_on "prerelease/prerelease/mulle-craft"
+depends_on "prerelease/prerelease/mulle-monitor"
+depends_on "prerelease/prerelease/mulle-platform"
+depends_on "prerelease/prerelease/mulle-sourcetree"
+depends_on "prerelease/prerelease/mulle-test"
 def install
   system "./bin/installer", "#{prefix}"
 end
