@@ -5,7 +5,7 @@ url "https://github.com/mulle-sde/mulle-env/archive/3.0.0-prerelease.tar.gz"
 sha256 "c4084efc465e388fb230595b70ad66f8d3521f89b034ef134cb2b389ac1b2e81"
 # version "3.0.0"
 
-depends_on "mulle-kybernetik/prerelease/mulle-bashfunctions"
+depends_on "mulle-nat/prerelease/mulle-bashfunctions"
 def install
   system "./bin/installer", "#{prefix}"
 end
